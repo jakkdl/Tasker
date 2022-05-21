@@ -1,0 +1,4179 @@
+<TaskerData sr="" dvi="1" tv="5.15.12">
+	<Profile sr="prof10" ve="2">
+		<cdate>1477220019798</cdate>
+		<clp>true</clp>
+		<edate>1498137362309</edate>
+		<id>10</id>
+		<limit>true</limit>
+		<mid0>9</mid0>
+		<nme>routine start</nme>
+		<Time sr="con0">
+			<fromvar>%RemainingStart1</fromvar>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof150" ve="2">
+		<cdate>1489499423199</cdate>
+		<clp>true</clp>
+		<edate>1490992695368</edate>
+		<id>150</id>
+		<limit>true</limit>
+		<mid0>151</mid0>
+		<nme>wait_til_tmrw</nme>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>0</fm>
+			<th>0</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof243" ve="2">
+		<cdate>1621755962045</cdate>
+		<clp>true</clp>
+		<edate>1646128206576</edate>
+		<flags>8</flags>
+		<id>243</id>
+		<limit>true</limit>
+		<mid0>244</mid0>
+		<nme>myapp_notif_start_time</nme>
+		<Time sr="con0">
+			<fromvar>%NotifTime</fromvar>
+			<tovar>%NotifTime</tovar>
+		</Time>
+	</Profile>
+	<Profile sr="prof274" ve="2">
+		<cdate>1524235329194</cdate>
+		<clp>true</clp>
+		<edate>1644058022015</edate>
+		<id>274</id>
+		<limit>true</limit>
+		<mid0>276</mid0>
+		<nme>focus</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.discord.app.AppActivity$Main</cls0>
+			<cls1>org.mariotaku.twidere.activity.MainActivity</cls1>
+			<cls10>com.facebook.mlite.coreui.view.MainActivity</cls10>
+			<cls11>org.thoughtcrime.securesms.RoutingActivity</cls11>
+			<cls2>org.mozilla.firefox.App</cls2>
+			<cls3>com.levelup.palabre.ui.activity.MainActivity</cls3>
+			<cls4>tv.twitch.android.app.core.LandingActivity</cls4>
+			<cls5>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls5>
+			<cls6>free.rm.skytube.gui.activities.MainActivity</cls6>
+			<cls7>com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher</cls7>
+			<cls8>ch.protonmail.android.activities.SplashActivity</cls8>
+			<cls9>net.osmand.plus.activities.MapActivity</cls9>
+			<flags>2</flags>
+			<label0>Discord</label0>
+			<label1>Twidere</label1>
+			<label10>Lite</label10>
+			<label11>Signal</label11>
+			<label2>Firefox</label2>
+			<label3>Palabre</label3>
+			<label4>Twitch</label4>
+			<label5>YouTube</label5>
+			<label6>SkyTube</label6>
+			<label7>Shattered Pixel Dungeon</label7>
+			<label8>ProtonMail</label8>
+			<label9>OsmAnd~</label9>
+			<pkg0>com.discord</pkg0>
+			<pkg1>org.mariotaku.twidere</pkg1>
+			<pkg10>com.facebook.mlite</pkg10>
+			<pkg11>org.thoughtcrime.securesms</pkg11>
+			<pkg2>org.mozilla.firefox</pkg2>
+			<pkg3>com.levelup.palabre</pkg3>
+			<pkg4>tv.twitch.android.app</pkg4>
+			<pkg5>com.google.android.youtube</pkg5>
+			<pkg6>free.rm.skytube.oss</pkg6>
+			<pkg7>com.shatteredpixel.shatteredpixeldungeon</pkg7>
+			<pkg8>ch.protonmail.android</pkg8>
+			<pkg9>net.osmand.plus</pkg9>
+		</App>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1485085307025</cdate>
+		<name>kwgt</name>
+		<pids>150,243,10,274</pids>
+		<tids>151,201,34,102,280,162,113,276,33,105,147,13,97,144,9,148,25,244,126,143,146,80,149</tids>
+		<Img sr="icon" ve="2">
+			<cls>org.kustom.widget.picker.WidgetPicker</cls>
+			<pkg>org.kustom.widget</pkg>
+		</Img>
+	</Project>
+	<Task sr="task102">
+		<cdate>1492336265396</cdate>
+		<edate>1645774370544</edate>
+		<id>102</id>
+		<nme>myapp_notif_start</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%TIMES - 60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">%TIMES + 120</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">already due, %DueStart(#?%tmp)
+%ctstarts(%iii)</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>6</op>
+					<rhs>%time</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>7</op>
+					<rhs>%end</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">start doesn't match</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">go</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%found</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%ctstarts(%iii)</Str>
+			<Str sr="arg3" ve="3">%cttitles(%iii)</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%found</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%found</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">myapp_notif_start</Str>
+			<Str sr="arg1" ve="3">found no events for intent, %cttitles(#), %TIMES</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">0</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>1269159260</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>8</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TYPE>0</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>routine from %start to %end</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevids()
+Event id list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctoccurrenceids()
+Occurrence identifier list
+-1 for non recurring events, valid otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctorgs()
+Email event owner list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cttitles()
+Title list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctdescs()
+Description list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctstarts()
+Start time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ctends()
+End time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctlocations()
+Location list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%cttimezones()
+Timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctcolors()
+Events colors in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctendtimezones()
+End timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctalldays()
+All day list
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctattendeeemails()
+Attendees email list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctattendeenames()
+Attendees name list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%ctavailable()
+Available list
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%ctremids()
+List of reminder ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%ctremmethods()
+List of reminder methods
+Values are: ALERT, DEFAULT, SMS, EMAIL, ALARM&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%ctremminutes()
+List of reminder minutes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Str sr="arg1" ve="3">1:%cttitles(#)</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cttitles(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp</Str>
+			<Str sr="arg1" ve="3">%ctstarts(%iii)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctdescs(%iii)</lhs>
+					<op>2</op>
+					<rhs>go</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%found</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">already go</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DueStart(#?tmp)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task105">
+		<cdate>1476794858206</cdate>
+		<edate>1646203972221</edate>
+		<id>105</id>
+		<nme>snooze_handler</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%snooze_length</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pos</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">%ctend - %ctstart + %start</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">600 + %start</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%idd</lhs>
+					<op>4</op>
+					<rhs>.*#.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>764435524</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>8</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.DESCRIPTION>snoozed</com.balda.calendartask.extra.DESCRIPTION>
+					<com.balda.calendartask.extra.DESCRIPTION-type>java.lang.String</com.balda.calendartask.extra.DESCRIPTION-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>1</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.REM_METHOD>1</com.balda.calendartask.extra.REM_METHOD>
+					<com.balda.calendartask.extra.REM_METHOD-type>java.lang.Integer</com.balda.calendartask.extra.REM_METHOD-type>
+					<com.balda.calendartask.extra.REM_MINUTES>1</com.balda.calendartask.extra.REM_MINUTES>
+					<com.balda.calendartask.extra.REM_MINUTES-type>java.lang.String</com.balda.calendartask.extra.REM_MINUTES-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>UTC</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>%title</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Add %title to routine</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevid
+Event id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctremid
+Reminder id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.DESCRIPTION com.balda.calendartask.extra.REM_MINUTES com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireAddEvent</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>933425445</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.DESCRIPTION>snoozed</com.balda.calendartask.extra.DESCRIPTION>
+					<com.balda.calendartask.extra.DESCRIPTION-type>java.lang.String</com.balda.calendartask.extra.DESCRIPTION-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.EVENT>%idd</com.balda.calendartask.extra.EVENT>
+					<com.balda.calendartask.extra.EVENT-type>java.lang.String</com.balda.calendartask.extra.EVENT-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>2</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>Etc/UTC</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>%title</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Modify %idd</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.DESCRIPTION com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START com.balda.calendartask.extra.EVENT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireModifyEvent</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>902779604</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.EVENT>%idd</com.balda.calendartask.extra.EVENT>
+					<com.balda.calendartask.extra.EVENT-type>java.lang.String</com.balda.calendartask.extra.EVENT-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>3</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Delete %idd</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.EVENT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireDeleteEvent</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>933425445</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.DESCRIPTION>snoozed</com.balda.calendartask.extra.DESCRIPTION>
+					<com.balda.calendartask.extra.DESCRIPTION-type>java.lang.String</com.balda.calendartask.extra.DESCRIPTION-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.EVENT>%idd</com.balda.calendartask.extra.EVENT>
+					<com.balda.calendartask.extra.EVENT-type>java.lang.String</com.balda.calendartask.extra.EVENT-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>64</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>2</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>Europe/Stockholm</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>%title</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Modify %idd</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.DESCRIPTION com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START com.balda.calendartask.extra.EVENT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireModifyEvent</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">kwgt_due</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Str sr="arg1" ve="3">%DueId(%pos)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%start</lhs>
+					<op>6</op>
+					<rhs>%NotifTime</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%NotifTime</lhs>
+					<op>2</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NotifTime</Str>
+			<Str sr="arg1" ve="3">%start</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">myapp_notif_start_time</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">refresh_routine_trigger</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">get_id</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%pos</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%idd</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%title</Str>
+			<Str sr="arg1" ve="3">%DueTitle(%pos)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1269159260</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>8</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.EVENT_ID>%idd</com.balda.calendartask.extra.EVENT_ID>
+					<com.balda.calendartask.extra.EVENT_ID-type>java.lang.String</com.balda.calendartask.extra.EVENT_ID-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.TYPE>1</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Get event from routine with id %idd</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctorg
+Email event owner
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%cttitle
+Title
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctdesc
+Description
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ctstart
+Start time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctend
+End time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctlocation
+Location
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%cttimezone
+Timezone
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctcolor
+Event color in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%ctendtimezone
+End timezone
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctallday
+All day event
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctavailable
+Available
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctattendeeemails()
+Attendees email list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctattendeenames()
+Attendees name list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctremids()
+List of reminder ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%ctremmethods()
+List of reminder methods
+Values are: ALERT, DEFAULT, SMS, EMAIL, ALARM&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%ctremminutes()
+List of reminder minutes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.EVENT_ID</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DueId(%pos)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DueId(%pos)</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DueStart(%pos)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DueStart(%pos)</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DueTitle(%pos)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DueTitle(%pos)</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%TIMES + %snooze_length</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task113">
+		<cdate>1531261914415</cdate>
+		<edate>1643367551787</edate>
+		<id>113</id>
+		<nme>get_id</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%index</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%index</Str>
+			<Str sr="arg1" ve="3">%DueStart(#&lt;)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">%DueStart(%index)+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>1269159260</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>8</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%DueStart(%index)</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TYPE>0</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>routine from %DueStart(%index) to %end</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevids()
+Event id list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctoccurrenceids()
+Occurrence identifier list
+-1 for non recurring events, valid otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctorgs()
+Email event owner list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cttitles()
+Title list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctdescs()
+Description list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctstarts()
+Start time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ctends()
+End time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctlocations()
+Location list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%cttimezones()
+Timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctcolors()
+Events colors in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctendtimezones()
+End timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctalldays()
+All day list
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctattendeeemails()
+Attendees email list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctattendeenames()
+Attendees name list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%ctavailable()
+Available list
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%ctremids()
+List of reminder ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%ctremmethods()
+List of reminder methods
+Values are: ALERT, DEFAULT, SMS, EMAIL, ALARM&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%ctremminutes()
+List of reminder minutes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Str sr="arg1" ve="3">1:%cttitles(#)</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cttitles(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%cttitles(%iii)</lhs>
+					<op>2</op>
+					<rhs>%DueTitle(%index)</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>2</op>
+					<rhs>%DueStart(%index)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Str sr="arg1" ve="3">%ctoccurrenceids(%iii)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctoccurrenceids(%iii)</lhs>
+					<op>1</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Str sr="arg1" ve="3">%ctevids(%iii)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctoccurrenceids(%iii)</lhs>
+					<op>0</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task126">
+		<cdate>1478386083652</cdate>
+		<edate>1646650017138</edate>
+		<id>126</id>
+		<nme>toggle_pa_playlist</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs>set</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.bambuna.podcastaddict.service.player.play</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.bambuna.podcastaddict</Str>
+			<Str sr="arg8" ve="3">com.bambuna.podcastaddict.receiver.PodcastAddictPlayerReceiver</Str>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>1783927965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>%PODCAST_PLAYLIST</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>&lt;null&gt;</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: %PODCAST_PLAYLIST
+Full Screen: false
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>5202df30-9564-47ac-be48-35302b6fe860</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CurrentPlaylist</lhs>
+					<op>0</op>
+					<rhs>##AUDIO##</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">ambient</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CurrentPlaylist</lhs>
+					<op>2</op>
+					<rhs>ambient</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">Music</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">##AUDIO##</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.bambuna.podcastaddict.openplaylist</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">arg1:%CurrentPlaylist</Str>
+			<Str sr="arg5" ve="3">arg2:false</Str>
+			<Str sr="arg6" ve="3">arg3:true</Str>
+			<Str sr="arg7" ve="3">com.bambuna.podcastaddict</Str>
+			<Str sr="arg8" ve="3">com.bambuna.podcastaddict.receiver.PodcastAddictPlayerReceiver</Str>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1480511795510</cdate>
+		<edate>1645772557039</edate>
+		<id>13</id>
+		<nme>fill_remaining</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1533846248</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.INT_VERSION_CODE>41</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>4</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.TIME>1</com.balda.calendartask.extra.TIME>
+					<com.balda.calendartask.extra.TIME-type>java.lang.String</com.balda.calendartask.extra.TIME-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Tomorrow</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%cttime
+Time
+Midnight of selected day in seconds UTC&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.TIME</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetTime</Str>
+			<Int sr="arg3" val="10"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">%TIMES +43200</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">fill remaining: No changes</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>357</code>
+			<label>clear</label>
+			<Str sr="arg0" ve="3">%RemainingTitle</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%RemainingId</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%RemainingCalendar</Str>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%RemainingStart</Str>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%RemainingPebble</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Str sr="arg1" ve="3">1:%cttitles(#)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>1269159260</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR></com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>41</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%TIMES</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TYPE>0</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>All from %TIMES to %end</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevids()
+Event id list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctoccurrenceids()
+Occurrence identifier list
+-1 for non recurring events, valid otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctorgs()
+Email event owner list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cttitles()
+Title list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctdescs()
+Description list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctstarts()
+Start time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ctends()
+End time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctlocations()
+Location list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%cttimezones()
+Timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctcolors()
+Events colors in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctendtimezones()
+End timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctalldays()
+All day list
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctavailable()
+Available list
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctcalendars()
+Calendar list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctalldays(%iii)</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Fill remaining: skipping %cttitles(%iii); is all-day</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>6</op>
+					<rhs>%TIMES+30</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Fill remaining: skipping %cttitles(%iii); too soon</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%RemainingTitle</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3">%cttitles(%iii)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%ctoccurrenceids(%iii)</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%RemainingId</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3">%ctevids(%iii)</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctoccurrenceids(%iii)</lhs>
+					<op>0</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%RemainingId</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3">%ctoccurrenceids(%iii)</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ctoccurrenceids(%iii)</lhs>
+					<op>1</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%RemainingCalendar</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3">%ctcalendars(%iii)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%RemainingStart</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3">%ctstarts(%iii)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rem</Str>
+			<Str sr="arg1" ve="3">round((%ctstarts(%iii) - %TIMES ) /60)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rem_unit</Str>
+			<Str sr="arg1" ve="3">m</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rem</lhs>
+					<op>6</op>
+					<rhs>121</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rem_unit</Str>
+			<Str sr="arg1" ve="3">h</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rem</lhs>
+					<op>7</op>
+					<rhs>120</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%rem</Str>
+			<Str sr="arg1" ve="3">round(%rem/60)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rem</lhs>
+					<op>7</op>
+					<rhs>120</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%RemainingPebble</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3">%rem%rem_unit %cttitles(%iii)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Str sr="arg1" ve="3">1:%cttitles(#)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>7</op>
+					<rhs>%TIMES+30</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ctalldays(%iii)</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%cttitles(%iii)</lhs>
+					<op>1</op>
+					<rhs>%RemainingTitle(%idd)</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>1</op>
+					<rhs>%RemainingStart(%idd)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">clear</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%idd</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task143">
+		<cdate>1489442360258</cdate>
+		<edate>1489442404923</edate>
+		<id>143</id>
+		<nme>start_rem_1</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">old_routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>access</nme>
+			<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+		</Img>
+	</Task>
+	<Task sr="task144">
+		<cdate>1489497942855</cdate>
+		<edate>1523632280846</edate>
+		<id>144</id>
+		<nme>kwgt_due</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>1186637727</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: Due</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_NAME org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>Due</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>%Due(&lt;)</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>323709015</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.widget</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Due(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>1186637727</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: Due</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_NAME org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>Due</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE> </org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>323709015</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.widget</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Due(#)</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>org.kustom.widget.picker.WidgetPicker</cls>
+			<pkg>org.kustom.widget</pkg>
+		</Img>
+	</Task>
+	<Task sr="task146">
+		<cdate>1489442360258</cdate>
+		<edate>1555567038529</edate>
+		<id>146</id>
+		<nme>start_rem_2</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">old_routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>access</nme>
+			<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+		</Img>
+	</Task>
+	<Task sr="task147">
+		<cdate>1489442360258</cdate>
+		<edate>1489498335587</edate>
+		<id>147</id>
+		<nme>start_rem_3</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">old_routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">3</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>access</nme>
+			<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+		</Img>
+	</Task>
+	<Task sr="task148">
+		<cdate>1489442360258</cdate>
+		<edate>1489498341538</edate>
+		<id>148</id>
+		<nme>start_rem_4</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">old_routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">4</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>access</nme>
+			<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+		</Img>
+	</Task>
+	<Task sr="task149">
+		<cdate>1489442360258</cdate>
+		<edate>1489498348083</edate>
+		<id>149</id>
+		<nme>start_rem_5</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">old_routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>access</nme>
+			<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+		</Img>
+	</Task>
+	<Task sr="task151">
+		<cdate>1489499429053</cdate>
+		<edate>1490992665654</edate>
+		<id>151</id>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">routine start</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">wait_til_tmrw</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">done waiting</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task162">
+		<cdate>1491719919312</cdate>
+		<edate>1494780784272</edate>
+		<id>162</id>
+		<nme>pebble reconnect</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1783927965</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>&lt;null&gt;</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>true</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Full Screen: false
+Check Pebble Connected: true
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%apconnected
+Is 1 if your Pebble is connected
+Is 1 if your Pebble is connected&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>794188ce-6b4f-4ef0-b39a-7e775d1c1ef5</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%apconnected</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%err ; %errmsg</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>2</op>
+					<rhs>timeout</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%apconnected</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>294</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>294</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>1783927965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>1</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Full Screen: false
+Control App: Open
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>b3e357f5-44b8-49c4-bafe-bdc44e8ad2bc</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task201">
+		<cdate>1557773851714</cdate>
+		<edate>1644061101985</edate>
+		<id>201</id>
+		<nme>test_vakna</nme>
+		<pri>7</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>635205967</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stop</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT>com.urbandroid.lux.action_command_stop</com.urbandroid.lux.taskerplugin.extra.EVENT>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.lux.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>459</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.lux</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.lux.integration.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="8"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">audio_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">poweramp</Str>
+			<Str sr="arg3" ve="3">1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toggle_pa_playlist</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">ambient</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">audio_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">podcast</Str>
+			<Str sr="arg3" ve="3">play</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">set focus</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_conv_a</nme>
+		</Img>
+	</Task>
+	<Task sr="task244">
+		<cdate>1621755980858</cdate>
+		<edate>1646128206576</edate>
+		<id>244</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">myapp_notif_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">myapp_notif_start_time</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NotifTime</Str>
+			<Str sr="arg1" ve="3">-1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1474371925773</cdate>
+		<edate>1644481154076</edate>
+		<id>25</id>
+		<nme>audio_control</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%apcomm(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par2</Str>
+			<Str sr="arg1" ve="3">%apcomm(2)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>podcast</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.bambuna.podcastaddict.service.player.%par2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.bambuna.podcastaddict</Str>
+			<Str sr="arg8" ve="3">com.bambuna.podcastaddict.receiver.PodcastAddictPlayerReceiver</Str>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>podcast</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>podcast_playlist</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toggle_pa_playlist</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%par2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.maxmpz.audioplayer.API_COMMAND</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">cmd:%par2</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="2"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>poweramp</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task276">
+		<cdate>1644057804331</cdate>
+		<edate>1644057906827</edate>
+		<id>276</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">kill</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>18</code>
+			<App sr="arg0">
+				<appClass>com.discord.app.AppActivity$Main</appClass>
+				<appPkg>com.discord</appPkg>
+				<label>Discord</label>
+			</App>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task280">
+		<cdate>1644060947284</cdate>
+		<edate>1644274102129</edate>
+		<id>280</id>
+		<nme>set focus</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">focus</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>268157305</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Tile: AutoNotification 2
+Command: focus=:=off
+Label: Focus
+Icon: android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb
+State: Active</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anqueryid
+Query Tile Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%antilecommand
+Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%antiledoubletapcommand
+Double Tap Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%antileicon
+Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%antilelabel
+Label
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%antilestate
+State
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%antilesubtitle
+Subtitle
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"command":"focus=:=off","hideNotifications":false,"icon":"android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb","label":"Focus","requireUnlock":false,"state":"2","tile":"2","tileAdvanced":{},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>6c7b1d2c-42c8-4423-8447-2200711b313c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentTile</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigTile</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">focus</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>268157305</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Tile: AutoNotification 2
+Command: focus=:=on
+Label: Focus
+Icon: android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb
+State: Inactive</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anqueryid
+Query Tile Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%antilecommand
+Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%antiledoubletapcommand
+Double Tap Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%antileicon
+Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%antilelabel
+Label
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%antilestate
+State
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%antilesubtitle
+Subtitle
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"command":"focus=:=on","hideNotifications":false,"icon":"android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb","label":"Focus","requireUnlock":false,"state":"1","tile":"2","tileAdvanced":{},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>6c7b1d2c-42c8-4423-8447-2200711b313c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentTile</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigTile</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task33">
+		<cdate>1524234049753</cdate>
+		<edate>1646128014464</edate>
+		<id>33</id>
+		<nme>refresh_routine_trigger</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.example.hatten.myapplication.action.refresh</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task34">
+		<cdate>1481632230387</cdate>
+		<edate>1643367473378</edate>
+		<id>34</id>
+		<nme>start_handler</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pos</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%title</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DueTitle(#?vakna)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">snooze_handler</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">900</Str>
+			<Str sr="arg3" ve="3">%pos</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%VOLM+1</var>
+			</Int>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">snoozed</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%title</lhs>
+					<op>2</op>
+					<rhs>morgonborsta</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DueTitle(#?ta sertralin)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">start handler: snoozing morgonborsta</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">snooze_handler</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">900</Str>
+			<Str sr="arg3" ve="3">%pos</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%VOLM+1</var>
+			</Int>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%title</lhs>
+					<op>0</op>
+					<rhs>borsta</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">snoozed</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">start</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">(clear all due tasks) and kill running notifications</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Dismissed</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%title</lhs>
+					<op>0</op>
+					<rhs>vakna</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">connect bluetooth</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">WoL computer</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">test_vakna</Str>
+			<Int sr="arg1">
+				<var>%priority+5</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%title</lhs>
+					<op>2</op>
+					<rhs>ta sertralin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task80">
+		<cdate>1475333622422</cdate>
+		<edate>1646204091078</edate>
+		<id>80</id>
+		<nme>menu list</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pos</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%title</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%snooze4,%snooze5,%snooze6</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%SnoozeDur4,%SnoozeDur5,%SnoozeDur6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>1069608106</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BackAction>&lt;null&gt;</BackAction>
+					<BackAction-type>java.lang.String</BackAction-type>
+					<BackMultiAction>&lt;null&gt;</BackMultiAction>
+					<BackMultiAction-type>java.lang.String</BackMultiAction-type>
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<BottomAction>acal=:=%pos=:=snooze=:=%snooze4</BottomAction>
+					<BottomAction-type>java.lang.String</BottomAction-type>
+					<BottomLabel>snooze %snooze_title4,%snooze_title5,%snooze_title6</BottomLabel>
+					<BottomLabel-type>java.lang.String</BottomLabel-type>
+					<BottomLongAction>acal=:=%pos=:=snooze=:=%snooze5</BottomLongAction>
+					<BottomLongAction-type>java.lang.String</BottomLongAction-type>
+					<BottomMultiAction>acal=:=%pos=:=snooze=:=%snooze6</BottomMultiAction>
+					<BottomMultiAction-type>java.lang.String</BottomMultiAction-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<GoBackOnBackAction>false</GoBackOnBackAction>
+					<GoBackOnBackAction-type>java.lang.Boolean</GoBackOnBackAction-type>
+					<GoBackOnBackMultiAction>false</GoBackOnBackMultiAction>
+					<GoBackOnBackMultiAction-type>java.lang.Boolean</GoBackOnBackMultiAction-type>
+					<ID>%pos</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LightMode>0</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<LightModeManual>&lt;null&gt;</LightModeManual>
+					<LightModeManual-type>java.lang.String</LightModeManual-type>
+					<ListHeader>%title</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ManageHistoryScreen>&lt;null&gt;</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MiddleAction>acal=:=%pos=:=go</MiddleAction>
+					<MiddleAction-type>java.lang.String</MiddleAction-type>
+					<MiddleLabel>go, dismiss</MiddleLabel>
+					<MiddleLabel-type>java.lang.String</MiddleLabel-type>
+					<MiddleLongAction>acal=:=%pos=:=dismiss</MiddleLongAction>
+					<MiddleLongAction-type>java.lang.String</MiddleLongAction-type>
+					<MiddleMultiAction>&lt;null&gt;</MiddleMultiAction>
+					<MiddleMultiAction-type>java.lang.String</MiddleMultiAction-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<OpenPhoneAppOnSetList>true</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<QuickCommandPrefix>&lt;null&gt;</QuickCommandPrefix>
+					<QuickCommandPrefix-type>java.lang.String</QuickCommandPrefix-type>
+					<QuickLongCommandPrefix>&lt;null&gt;</QuickLongCommandPrefix>
+					<QuickLongCommandPrefix-type>java.lang.String</QuickLongCommandPrefix-type>
+					<QuickMultiCommandPrefix>&lt;null&gt;</QuickMultiCommandPrefix>
+					<QuickMultiCommandPrefix-type>java.lang.String</QuickMultiCommandPrefix-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<TapCommand>&lt;null&gt;</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>&lt;null&gt;</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>&lt;null&gt;</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<TopAction>acal=:=%pos=:=snooze=:=%SnoozeDur1</TopAction>
+					<TopAction-type>java.lang.String</TopAction-type>
+					<TopLabel>snooze /8,/4,/2</TopLabel>
+					<TopLabel-type>java.lang.String</TopLabel-type>
+					<TopLongAction>acal=:=%pos=:=snooze=:=%SnoozeDur2</TopLongAction>
+					<TopLongAction-type>java.lang.String</TopLongAction-type>
+					<TopMultiAction>acal=:=%pos=:=snooze=:=%SnoozeDur3</TopMultiAction>
+					<TopMultiAction-type>java.lang.String</TopMultiAction-type>
+					<VibrationPattern>500</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: %pos
+Full Screen: false
+Title: %title
+Top Label: snooze /8,/4,/2
+Top Action: acal=:=%pos=:=snooze=:=%SnoozeDur1
+Top Long Click Action: acal=:=%pos=:=snooze=:=%SnoozeDur2
+Top Multi Click Action: acal=:=%pos=:=snooze=:=%SnoozeDur3
+Middle Label: go, dismiss
+Middle Action: acal=:=%pos=:=go
+Middle Long Click Action: acal=:=%pos=:=dismiss
+Bottom Label: snooze %snooze_title4,%snooze_title5,%snooze_title6
+Bottom Action: acal=:=%pos=:=snooze=:=%snooze4
+Bottom Long Click Action: acal=:=%pos=:=snooze=:=%snooze5
+Bottom Multi Click Action: acal=:=%pos=:=snooze=:=%snooze6
+No Prefix if Command: false
+Do Not Disturb: false
+Light Mode: No Change
+Vibration Pattern: 500
+Clear History: false
+Open Phone App: true
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ TopLabel TopAction TopLongAction TopMultiAction MiddleLabel BottomLabel BottomAction BottomLongAction BottomMultiAction QuickCommandPrefix QuickLongCommandPrefix QuickMultiCommandPrefix plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>10545962-80ad-4f36-a9c7-857d83d05e50</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetQuickScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigSetQuickScreen</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%an_id</Str>
+			<Str sr="arg1" ve="3">%pos + 758</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>166160670</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionIconString1>/8</ActionIconString1>
+					<ActionIconString1-type>java.lang.String</ActionIconString1-type>
+					<ActionIconString2>/4</ActionIconString2>
+					<ActionIconString2-type>java.lang.String</ActionIconString2-type>
+					<ActionIconString3>/2</ActionIconString3>
+					<ActionIconString3-type>java.lang.String</ActionIconString3-type>
+					<ActionIconString4>&lt;null&gt;</ActionIconString4>
+					<ActionIconString4-type>java.lang.String</ActionIconString4-type>
+					<ActionIconString5>&lt;null&gt;</ActionIconString5>
+					<ActionIconString5-type>java.lang.String</ActionIconString5-type>
+					<AppendTexts>false</AppendTexts>
+					<AppendTexts-type>java.lang.Boolean</AppendTexts-type>
+					<BackgroundColor>&lt;null&gt;</BackgroundColor>
+					<BackgroundColor-type>java.lang.String</BackgroundColor-type>
+					<BadgeType>&lt;null&gt;</BadgeType>
+					<BadgeType-type>java.lang.String</BadgeType-type>
+					<Button1UnlockScreen>false</Button1UnlockScreen>
+					<Button1UnlockScreen-type>java.lang.Boolean</Button1UnlockScreen-type>
+					<Button2UnlockScreen>false</Button2UnlockScreen>
+					<Button2UnlockScreen-type>java.lang.Boolean</Button2UnlockScreen-type>
+					<Button3UnlockScreen>false</Button3UnlockScreen>
+					<Button3UnlockScreen-type>java.lang.Boolean</Button3UnlockScreen-type>
+					<Button4UnlockScreen>false</Button4UnlockScreen>
+					<Button4UnlockScreen-type>java.lang.Boolean</Button4UnlockScreen-type>
+					<Button5UnlockScreen>false</Button5UnlockScreen>
+					<Button5UnlockScreen-type>java.lang.Boolean</Button5UnlockScreen-type>
+					<ChronometerCountDown>false</ChronometerCountDown>
+					<ChronometerCountDown-type>java.lang.Boolean</ChronometerCountDown-type>
+					<Colorize>false</Colorize>
+					<Colorize-type>java.lang.Boolean</Colorize-type>
+					<DismissOnTouchVariable>&lt;null&gt;</DismissOnTouchVariable>
+					<DismissOnTouchVariable-type>java.lang.String</DismissOnTouchVariable-type>
+					<ExtraInfo>&lt;null&gt;</ExtraInfo>
+					<ExtraInfo-type>java.lang.String</ExtraInfo-type>
+					<GroupAlertBehaviour>&lt;null&gt;</GroupAlertBehaviour>
+					<GroupAlertBehaviour-type>java.lang.String</GroupAlertBehaviour-type>
+					<GroupKey>&lt;null&gt;</GroupKey>
+					<GroupKey-type>java.lang.String</GroupKey-type>
+					<IconExpanded>&lt;null&gt;</IconExpanded>
+					<IconExpanded-type>java.lang.String</IconExpanded-type>
+					<IsGroupSummary>false</IsGroupSummary>
+					<IsGroupSummary-type>java.lang.Boolean</IsGroupSummary-type>
+					<IsGroupVariable>&lt;null&gt;</IsGroupVariable>
+					<IsGroupVariable-type>java.lang.String</IsGroupVariable-type>
+					<MediaAlbum>&lt;null&gt;</MediaAlbum>
+					<MediaAlbum-type>java.lang.String</MediaAlbum-type>
+					<MediaArtist>&lt;null&gt;</MediaArtist>
+					<MediaArtist-type>java.lang.String</MediaArtist-type>
+					<MediaDuration>&lt;null&gt;</MediaDuration>
+					<MediaDuration-type>java.lang.String</MediaDuration-type>
+					<MediaIcon>&lt;null&gt;</MediaIcon>
+					<MediaIcon-type>java.lang.String</MediaIcon-type>
+					<MediaLayout>false</MediaLayout>
+					<MediaLayout-type>java.lang.Boolean</MediaLayout-type>
+					<MediaNextCommand>&lt;null&gt;</MediaNextCommand>
+					<MediaNextCommand-type>java.lang.String</MediaNextCommand-type>
+					<MediaPauseCommand>&lt;null&gt;</MediaPauseCommand>
+					<MediaPauseCommand-type>java.lang.String</MediaPauseCommand-type>
+					<MediaPlayCommand>&lt;null&gt;</MediaPlayCommand>
+					<MediaPlayCommand-type>java.lang.String</MediaPlayCommand-type>
+					<MediaPlaybackState>&lt;null&gt;</MediaPlaybackState>
+					<MediaPlaybackState-type>java.lang.String</MediaPlaybackState-type>
+					<MediaPosition>&lt;null&gt;</MediaPosition>
+					<MediaPosition-type>java.lang.String</MediaPosition-type>
+					<MediaPreviousCommand>&lt;null&gt;</MediaPreviousCommand>
+					<MediaPreviousCommand-type>java.lang.String</MediaPreviousCommand-type>
+					<MediaTrack>&lt;null&gt;</MediaTrack>
+					<MediaTrack-type>java.lang.String</MediaTrack-type>
+					<MessagingImages>&lt;null&gt;</MessagingImages>
+					<MessagingImages-type>java.lang.String</MessagingImages-type>
+					<MessagingOwnIcon>&lt;null&gt;</MessagingOwnIcon>
+					<MessagingOwnIcon-type>java.lang.String</MessagingOwnIcon-type>
+					<MessagingOwnName>&lt;null&gt;</MessagingOwnName>
+					<MessagingOwnName-type>java.lang.String</MessagingOwnName-type>
+					<MessagingPersonBot>&lt;null&gt;</MessagingPersonBot>
+					<MessagingPersonBot-type>java.lang.String</MessagingPersonBot-type>
+					<MessagingPersonIcons>&lt;null&gt;</MessagingPersonIcons>
+					<MessagingPersonIcons-type>java.lang.String</MessagingPersonIcons-type>
+					<MessagingPersonImportant>&lt;null&gt;</MessagingPersonImportant>
+					<MessagingPersonImportant-type>java.lang.String</MessagingPersonImportant-type>
+					<MessagingPersonNames>&lt;null&gt;</MessagingPersonNames>
+					<MessagingPersonNames-type>java.lang.String</MessagingPersonNames-type>
+					<MessagingPersonUri>&lt;null&gt;</MessagingPersonUri>
+					<MessagingPersonUri-type>java.lang.String</MessagingPersonUri-type>
+					<MessagingSeparator>&lt;null&gt;</MessagingSeparator>
+					<MessagingSeparator-type>java.lang.String</MessagingSeparator-type>
+					<MessagingTexts>&lt;null&gt;</MessagingTexts>
+					<MessagingTexts-type>java.lang.String</MessagingTexts-type>
+					<NotificationChannelBypassDnd>false</NotificationChannelBypassDnd>
+					<NotificationChannelBypassDnd-type>java.lang.Boolean</NotificationChannelBypassDnd-type>
+					<NotificationChannelDescription>&lt;null&gt;</NotificationChannelDescription>
+					<NotificationChannelDescription-type>java.lang.String</NotificationChannelDescription-type>
+					<NotificationChannelId>&lt;null&gt;</NotificationChannelId>
+					<NotificationChannelId-type>java.lang.String</NotificationChannelId-type>
+					<NotificationChannelImportance>&lt;null&gt;</NotificationChannelImportance>
+					<NotificationChannelImportance-type>java.lang.String</NotificationChannelImportance-type>
+					<NotificationChannelName>&lt;null&gt;</NotificationChannelName>
+					<NotificationChannelName-type>java.lang.String</NotificationChannelName-type>
+					<NotificationChannelShowBadge>false</NotificationChannelShowBadge>
+					<NotificationChannelShowBadge-type>java.lang.Boolean</NotificationChannelShowBadge-type>
+					<PersistentVariable>&lt;null&gt;</PersistentVariable>
+					<PersistentVariable-type>java.lang.String</PersistentVariable-type>
+					<PhoneOnly>true</PhoneOnly>
+					<PhoneOnly-type>java.lang.Boolean</PhoneOnly-type>
+					<PriorityVariable>&lt;null&gt;</PriorityVariable>
+					<PriorityVariable-type>java.lang.String</PriorityVariable-type>
+					<PublicVersion>&lt;null&gt;</PublicVersion>
+					<PublicVersion-type>java.lang.String</PublicVersion-type>
+					<ReplyAction>&lt;null&gt;</ReplyAction>
+					<ReplyAction-type>java.lang.String</ReplyAction-type>
+					<ReplyChoices>&lt;null&gt;</ReplyChoices>
+					<ReplyChoices-type>java.lang.String</ReplyChoices-type>
+					<ReplyLabel>&lt;null&gt;</ReplyLabel>
+					<ReplyLabel-type>java.lang.String</ReplyLabel-type>
+					<ShareButtonsVariable>&lt;null&gt;</ShareButtonsVariable>
+					<ShareButtonsVariable-type>java.lang.String</ShareButtonsVariable-type>
+					<SkipPictureCache>false</SkipPictureCache>
+					<SkipPictureCache-type>java.lang.Boolean</SkipPictureCache-type>
+					<SoundPath>&lt;null&gt;</SoundPath>
+					<SoundPath-type>java.lang.String</SoundPath-type>
+					<StatusBarIconString>❤</StatusBarIconString>
+					<StatusBarIconString-type>java.lang.String</StatusBarIconString-type>
+					<StatusBarTextSize>16</StatusBarTextSize>
+					<StatusBarTextSize-type>java.lang.String</StatusBarTextSize-type>
+					<TextExpanded>&lt;null&gt;</TextExpanded>
+					<TextExpanded-type>java.lang.String</TextExpanded-type>
+					<Time>%TIME</Time>
+					<Time-type>java.lang.String</Time-type>
+					<TimeFormat>&lt;null&gt;</TimeFormat>
+					<TimeFormat-type>java.lang.String</TimeFormat-type>
+					<Timeout>&lt;null&gt;</Timeout>
+					<Timeout-type>java.lang.String</Timeout-type>
+					<TitleExpanded>&lt;null&gt;</TitleExpanded>
+					<TitleExpanded-type>java.lang.String</TitleExpanded-type>
+					<UpdateNotification>false</UpdateNotification>
+					<UpdateNotification-type>java.lang.Boolean</UpdateNotification-type>
+					<UseChronometer>true</UseChronometer>
+					<UseChronometer-type>java.lang.Boolean</UseChronometer-type>
+					<UseHTML>false</UseHTML>
+					<UseHTML-type>java.lang.Boolean</UseHTML-type>
+					<Visibility>1</Visibility>
+					<Visibility-type>java.lang.String</Visibility-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: %title
+Text: %DueId(%pos)
+Action on Touch: acalendar=:=%pos=:=go
+Action on Dismiss: acalendar=:=%par1=:=dismiss
+Status Bar Icon Manual: ❤
+Status Bar Text Size: 16
+Id: %an_id
+Priority: 0
+Visibility: Public
+Time: %TIME
+Use Chronometer: true
+Sound: content://settings/system/notification_sound
+LED Color: cyan
+LED On: 500
+LED Off: 500
+Vibration: 0,2162
+Separator: ,
+Button 1: acalendar=:=%pos=:=snooze=:=450
+Label 1: /8
+Icon 1: rating_not_important
+Action Icon 1 Manual: /8
+Button 2: acalendar=:=%pos=:=snooze=:=900
+Label 2: /4
+Icon 2: abc_ic_arrow_drop_right_black_24dp
+Action Icon 2 Manual: /4
+Button 3: acalendar=:=%pos=:=snooze=:=1800
+Label 3: /2
+Icon 3: abc_ic_star_half_black_16dp
+Action Icon 3 Manual: /2
+Button 4: acalendar=:=%pos=:=snooze=:=3600
+Icon 4: ic_action_dice1
+Icon 5: ic_action_dice2
+Only on Phone: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>rating_not_important</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>abc_ic_arrow_drop_right_black_24dp</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>abc_ic_star_half_black_16dp</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_action_4_icon>ic_action_dice1</config_action_4_icon>
+					<config_action_4_icon-type>java.lang.String</config_action_4_icon-type>
+					<config_action_5_icon>ic_action_dice2</config_action_5_icon>
+					<config_action_5_icon-type>java.lang.String</config_action_5_icon-type>
+					<config_notification_action>acalendar=:=%pos=:=go</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>acalendar=:=%pos=:=snooze=:=450</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>acalendar=:=%pos=:=snooze=:=900</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>acalendar=:=%pos=:=snooze=:=1800</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_button4>acalendar=:=%pos=:=snooze=:=3600</config_notification_action_button4>
+					<config_notification_action_button4-type>java.lang.String</config_notification_action_button4-type>
+					<config_notification_action_button5>&lt;null&gt;</config_notification_action_button5>
+					<config_notification_action_button5-type>java.lang.String</config_notification_action_button5-type>
+					<config_notification_action_label1>/8</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>/4</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>/2</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>acalendar=:=%par1=:=dismiss</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_command>&lt;null&gt;</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>false</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>&lt;null&gt;</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>cyan</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>500</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>500</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>false</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>0</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>%DueId(%pos)</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>%title</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>0,2162</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_launcher</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Visibility Time StatusBarTextSize config_notification_title config_notification_text config_notification_action config_notification_led_color config_notification_led_on config_notification_led_off config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 config_notification_action_button3 config_notification_action_label3 config_notification_action_button4 notificaitionid notificaitionsound config_notification_vibration config_status_bar_icon config_action_1_icon config_action_2_icon config_action_3_icon config_action_4_icon config_action_5_icon config_notification_priority config_notification_action_on_dismiss StatusBarIconString ActionIconString1 ActionIconString2 ActionIconString3 plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%an_id</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>content://settings/system/notification_sound</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<plugininstanceid>bca76ce3-5484-44b2-85f9-1db58adbd8d2</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotify</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>166160670</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionIconString1>&lt;null&gt;</ActionIconString1>
+					<ActionIconString1-type>java.lang.String</ActionIconString1-type>
+					<ActionIconString2>&lt;null&gt;</ActionIconString2>
+					<ActionIconString2-type>java.lang.String</ActionIconString2-type>
+					<ActionIconString3>&lt;null&gt;</ActionIconString3>
+					<ActionIconString3-type>java.lang.String</ActionIconString3-type>
+					<ActionIconString4>&lt;null&gt;</ActionIconString4>
+					<ActionIconString4-type>java.lang.String</ActionIconString4-type>
+					<ActionIconString5>&lt;null&gt;</ActionIconString5>
+					<ActionIconString5-type>java.lang.String</ActionIconString5-type>
+					<AppendTexts>false</AppendTexts>
+					<AppendTexts-type>java.lang.Boolean</AppendTexts-type>
+					<BackgroundColor>&lt;null&gt;</BackgroundColor>
+					<BackgroundColor-type>java.lang.String</BackgroundColor-type>
+					<BadgeType>&lt;null&gt;</BadgeType>
+					<BadgeType-type>java.lang.String</BadgeType-type>
+					<Button1UnlockScreen>false</Button1UnlockScreen>
+					<Button1UnlockScreen-type>java.lang.Boolean</Button1UnlockScreen-type>
+					<Button2UnlockScreen>false</Button2UnlockScreen>
+					<Button2UnlockScreen-type>java.lang.Boolean</Button2UnlockScreen-type>
+					<Button3UnlockScreen>false</Button3UnlockScreen>
+					<Button3UnlockScreen-type>java.lang.Boolean</Button3UnlockScreen-type>
+					<Button4UnlockScreen>false</Button4UnlockScreen>
+					<Button4UnlockScreen-type>java.lang.Boolean</Button4UnlockScreen-type>
+					<Button5UnlockScreen>false</Button5UnlockScreen>
+					<Button5UnlockScreen-type>java.lang.Boolean</Button5UnlockScreen-type>
+					<ChronometerCountDown>false</ChronometerCountDown>
+					<ChronometerCountDown-type>java.lang.Boolean</ChronometerCountDown-type>
+					<Colorize>false</Colorize>
+					<Colorize-type>java.lang.Boolean</Colorize-type>
+					<DismissOnTouchVariable>&lt;null&gt;</DismissOnTouchVariable>
+					<DismissOnTouchVariable-type>java.lang.String</DismissOnTouchVariable-type>
+					<ExtraInfo>&lt;null&gt;</ExtraInfo>
+					<ExtraInfo-type>java.lang.String</ExtraInfo-type>
+					<GroupAlertBehaviour>&lt;null&gt;</GroupAlertBehaviour>
+					<GroupAlertBehaviour-type>java.lang.String</GroupAlertBehaviour-type>
+					<GroupKey>&lt;null&gt;</GroupKey>
+					<GroupKey-type>java.lang.String</GroupKey-type>
+					<IconExpanded>&lt;null&gt;</IconExpanded>
+					<IconExpanded-type>java.lang.String</IconExpanded-type>
+					<IsGroupSummary>false</IsGroupSummary>
+					<IsGroupSummary-type>java.lang.Boolean</IsGroupSummary-type>
+					<IsGroupVariable>&lt;null&gt;</IsGroupVariable>
+					<IsGroupVariable-type>java.lang.String</IsGroupVariable-type>
+					<MediaAlbum>&lt;null&gt;</MediaAlbum>
+					<MediaAlbum-type>java.lang.String</MediaAlbum-type>
+					<MediaArtist>&lt;null&gt;</MediaArtist>
+					<MediaArtist-type>java.lang.String</MediaArtist-type>
+					<MediaDuration>&lt;null&gt;</MediaDuration>
+					<MediaDuration-type>java.lang.String</MediaDuration-type>
+					<MediaIcon>&lt;null&gt;</MediaIcon>
+					<MediaIcon-type>java.lang.String</MediaIcon-type>
+					<MediaLayout>false</MediaLayout>
+					<MediaLayout-type>java.lang.Boolean</MediaLayout-type>
+					<MediaNextCommand>&lt;null&gt;</MediaNextCommand>
+					<MediaNextCommand-type>java.lang.String</MediaNextCommand-type>
+					<MediaPauseCommand>&lt;null&gt;</MediaPauseCommand>
+					<MediaPauseCommand-type>java.lang.String</MediaPauseCommand-type>
+					<MediaPlayCommand>&lt;null&gt;</MediaPlayCommand>
+					<MediaPlayCommand-type>java.lang.String</MediaPlayCommand-type>
+					<MediaPlaybackState>&lt;null&gt;</MediaPlaybackState>
+					<MediaPlaybackState-type>java.lang.String</MediaPlaybackState-type>
+					<MediaPosition>&lt;null&gt;</MediaPosition>
+					<MediaPosition-type>java.lang.String</MediaPosition-type>
+					<MediaPreviousCommand>&lt;null&gt;</MediaPreviousCommand>
+					<MediaPreviousCommand-type>java.lang.String</MediaPreviousCommand-type>
+					<MediaTrack>&lt;null&gt;</MediaTrack>
+					<MediaTrack-type>java.lang.String</MediaTrack-type>
+					<MessagingImages>&lt;null&gt;</MessagingImages>
+					<MessagingImages-type>java.lang.String</MessagingImages-type>
+					<MessagingOwnIcon>&lt;null&gt;</MessagingOwnIcon>
+					<MessagingOwnIcon-type>java.lang.String</MessagingOwnIcon-type>
+					<MessagingOwnName>&lt;null&gt;</MessagingOwnName>
+					<MessagingOwnName-type>java.lang.String</MessagingOwnName-type>
+					<MessagingPersonBot>&lt;null&gt;</MessagingPersonBot>
+					<MessagingPersonBot-type>java.lang.String</MessagingPersonBot-type>
+					<MessagingPersonIcons>&lt;null&gt;</MessagingPersonIcons>
+					<MessagingPersonIcons-type>java.lang.String</MessagingPersonIcons-type>
+					<MessagingPersonImportant>&lt;null&gt;</MessagingPersonImportant>
+					<MessagingPersonImportant-type>java.lang.String</MessagingPersonImportant-type>
+					<MessagingPersonNames>&lt;null&gt;</MessagingPersonNames>
+					<MessagingPersonNames-type>java.lang.String</MessagingPersonNames-type>
+					<MessagingPersonUri>&lt;null&gt;</MessagingPersonUri>
+					<MessagingPersonUri-type>java.lang.String</MessagingPersonUri-type>
+					<MessagingSeparator>&lt;null&gt;</MessagingSeparator>
+					<MessagingSeparator-type>java.lang.String</MessagingSeparator-type>
+					<MessagingTexts>&lt;null&gt;</MessagingTexts>
+					<MessagingTexts-type>java.lang.String</MessagingTexts-type>
+					<NotificationChannelBypassDnd>false</NotificationChannelBypassDnd>
+					<NotificationChannelBypassDnd-type>java.lang.Boolean</NotificationChannelBypassDnd-type>
+					<NotificationChannelDescription>&lt;null&gt;</NotificationChannelDescription>
+					<NotificationChannelDescription-type>java.lang.String</NotificationChannelDescription-type>
+					<NotificationChannelId>&lt;null&gt;</NotificationChannelId>
+					<NotificationChannelId-type>java.lang.String</NotificationChannelId-type>
+					<NotificationChannelImportance>&lt;null&gt;</NotificationChannelImportance>
+					<NotificationChannelImportance-type>java.lang.String</NotificationChannelImportance-type>
+					<NotificationChannelName>&lt;null&gt;</NotificationChannelName>
+					<NotificationChannelName-type>java.lang.String</NotificationChannelName-type>
+					<NotificationChannelShowBadge>false</NotificationChannelShowBadge>
+					<NotificationChannelShowBadge-type>java.lang.Boolean</NotificationChannelShowBadge-type>
+					<PersistentVariable>&lt;null&gt;</PersistentVariable>
+					<PersistentVariable-type>java.lang.String</PersistentVariable-type>
+					<PhoneOnly>false</PhoneOnly>
+					<PhoneOnly-type>java.lang.Boolean</PhoneOnly-type>
+					<PriorityVariable>2</PriorityVariable>
+					<PriorityVariable-type>java.lang.String</PriorityVariable-type>
+					<PublicVersion>&lt;null&gt;</PublicVersion>
+					<PublicVersion-type>java.lang.String</PublicVersion-type>
+					<ReplyAction>&lt;null&gt;</ReplyAction>
+					<ReplyAction-type>java.lang.String</ReplyAction-type>
+					<ReplyChoices>&lt;null&gt;</ReplyChoices>
+					<ReplyChoices-type>java.lang.String</ReplyChoices-type>
+					<ReplyLabel>&lt;null&gt;</ReplyLabel>
+					<ReplyLabel-type>java.lang.String</ReplyLabel-type>
+					<ShareButtonsVariable>&lt;null&gt;</ShareButtonsVariable>
+					<ShareButtonsVariable-type>java.lang.String</ShareButtonsVariable-type>
+					<SkipPictureCache>false</SkipPictureCache>
+					<SkipPictureCache-type>java.lang.Boolean</SkipPictureCache-type>
+					<SoundPath>&lt;null&gt;</SoundPath>
+					<SoundPath-type>java.lang.String</SoundPath-type>
+					<StatusBarIconString>&lt;null&gt;</StatusBarIconString>
+					<StatusBarIconString-type>java.lang.String</StatusBarIconString-type>
+					<StatusBarTextSize>16</StatusBarTextSize>
+					<StatusBarTextSize-type>java.lang.String</StatusBarTextSize-type>
+					<TextExpanded>&lt;null&gt;</TextExpanded>
+					<TextExpanded-type>java.lang.String</TextExpanded-type>
+					<Time>&lt;null&gt;</Time>
+					<Time-type>java.lang.String</Time-type>
+					<TimeFormat>&lt;null&gt;</TimeFormat>
+					<TimeFormat-type>java.lang.String</TimeFormat-type>
+					<Timeout>&lt;null&gt;</Timeout>
+					<Timeout-type>java.lang.String</Timeout-type>
+					<TitleExpanded>&lt;null&gt;</TitleExpanded>
+					<TitleExpanded-type>java.lang.String</TitleExpanded-type>
+					<UpdateNotification>false</UpdateNotification>
+					<UpdateNotification-type>java.lang.Boolean</UpdateNotification-type>
+					<UseChronometer>false</UseChronometer>
+					<UseChronometer-type>java.lang.Boolean</UseChronometer-type>
+					<UseHTML>false</UseHTML>
+					<UseHTML-type>java.lang.Boolean</UseHTML-type>
+					<Visibility>&lt;null&gt;</Visibility>
+					<Visibility-type>java.lang.String</Visibility-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: %title
+Text: %DueId(%pos)
+Action on Touch: acalendar=:=%pos=:=go
+Action on Dismiss: acalendar=:=%pos=:=dismiss
+Icon: icon-pack://com.natewren.lines/lifetimealarmclock
+Status Bar Icon: ic_action_alarm
+Status Bar Text Size: 16
+Id: %an_id
+Priority: 2
+Separator: ,
+Button 1: acalendar=:=%pos=:=go
+Label 1: g
+Icon 1: av_play
+Button 2: acalendar=:=%pos=:=snooze
+Label 2: s
+Icon 2: av_fast_forward</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>av_play</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>av_fast_forward</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_action_4_icon>&lt;null&gt;</config_action_4_icon>
+					<config_action_4_icon-type>java.lang.String</config_action_4_icon-type>
+					<config_action_5_icon>&lt;null&gt;</config_action_5_icon>
+					<config_action_5_icon-type>java.lang.String</config_action_5_icon-type>
+					<config_notification_action>acalendar=:=%pos=:=go</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>acalendar=:=%pos=:=go</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>acalendar=:=%pos=:=snooze</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_button4>&lt;null&gt;</config_notification_action_button4>
+					<config_notification_action_button4-type>java.lang.String</config_notification_action_button4-type>
+					<config_notification_action_button5>&lt;null&gt;</config_notification_action_button5>
+					<config_notification_action_button5-type>java.lang.String</config_notification_action_button5-type>
+					<config_notification_action_label1>g</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>s</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>acalendar=:=%pos=:=dismiss</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_command>&lt;null&gt;</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>false</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>icon-pack://com.natewren.lines/lifetimealarmclock</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>false</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>2</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>%DueId(%pos)</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>%title</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>ic_action_alarm</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>PriorityVariable StatusBarTextSize config_notification_title config_notification_text config_notification_action config_notification_icon config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 notificaitionid config_status_bar_icon config_action_1_icon config_action_2_icon config_notification_priority config_notification_action_on_dismiss plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%an_id</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<plugininstanceid>33fa824c-c30a-4b2d-9479-dd79f4c18844</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotify</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%SnoozeDur</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pos</Str>
+			<Str sr="arg1" ve="3">%DueStart(#&gt;)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%title</Str>
+			<Str sr="arg1" ve="3">%DueTitle(%pos)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">pebble reconnect</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%title</lhs>
+					<op>2</op>
+					<rhs>vakna</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%title</lhs>
+					<op>2</op>
+					<rhs>piller</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%snooze4,%snooze5,%snooze6</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%SnoozeDur1,%SnoozeDur2,%SnoozeDur3</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%snooze_title4,%snooze_title5,%snooze_title6</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">/8,/4,/2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%snooze_title4,%snooze_title5,%snooze_title6</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">1,2,4</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1476540088667</cdate>
+		<edate>1645772721833</edate>
+		<id>9</id>
+		<nme>old_routine_start</nme>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">fill_remaining</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RemainingStart1</lhs>
+					<op>7</op>
+					<rhs>%TIMES + 60</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%RemainingStart</Str>
+			<Int sr="arg1">
+				<var>%par1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%start</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cal</lhs>
+					<op>1</op>
+					<rhs>routine</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">%title</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">routine_start</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%start</Str>
+			<Str sr="arg3" ve="3">%title</Str>
+			<Str sr="arg4" ve="3">%res</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%RemainingStart1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RemainingStart1</lhs>
+					<op>6</op>
+					<rhs>%TIMES</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">routine start</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">wait_til_tmrw</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%RemainingId</Str>
+			<Int sr="arg1">
+				<var>%par1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%idd</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%RemainingTitle</Str>
+			<Int sr="arg1">
+				<var>%par1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%title</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%RemainingCalendar</Str>
+			<Int sr="arg1">
+				<var>%par1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%cal</Str>
+		</Action>
+	</Task>
+	<Task sr="task97">
+		<cdate>1476540088667</cdate>
+		<edate>1645772417156</edate>
+		<id>97</id>
+		<nme>routine_start</nme>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%title</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">start_handler</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%pos</Str>
+			<Str sr="arg3" ve="3">%title</Str>
+			<Str sr="arg4" ve="3">%res</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%res</lhs>
+					<op>0</op>
+					<rhs>start</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">menu list</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%pos</Str>
+			<Str sr="arg3" ve="3">%title</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">kwgt_due</Str>
+			<Int sr="arg1">
+				<var>%priority-2</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">routine_start: %start, %title</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NextBuzz</Str>
+			<Str sr="arg1" ve="3">%TIMES + 120</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pos</Str>
+			<Str sr="arg1" ve="3">%DueTitle(#&lt;)+1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DueStart(#?%start)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DueTitle(#?%title)</lhs>
+					<op>1</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">routine_start: duple</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Debug</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%DueStart</Str>
+			<Int sr="arg1">
+				<var>%pos</var>
+			</Int>
+			<Str sr="arg2" ve="3">%start</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%DueTitle</Str>
+			<Int sr="arg1">
+				<var>%pos</var>
+			</Int>
+			<Str sr="arg2" ve="3">%title</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

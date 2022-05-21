@@ -1,0 +1,3585 @@
+<TaskerData sr="" dvi="1" tv="5.15.14">
+	<dmetric>1080.0,2079.0</dmetric>
+	<Profile sr="prof314" ve="2">
+		<cdate>1646653892866</cdate>
+		<clp>true</clp>
+		<edate>1648216597597</edate>
+		<flags>8</flags>
+		<id>314</id>
+		<mid0>315</mid0>
+		<mid1>316</mid1>
+		<App sr="con0" ve="2">
+			<cls0>com.ichi2.anki.IntentHandler</cls0>
+			<flags>2</flags>
+			<label0>AnkiDroid</label0>
+			<pkg0>com.ichi2.anki</pkg0>
+		</App>
+	</Profile>
+	<Profile sr="prof324" ve="2">
+		<cdate>1652418653466</cdate>
+		<clp>true</clp>
+		<edate>1652418701572</edate>
+		<flags>8</flags>
+		<id>324</id>
+		<mid0>325</mid0>
+		<Event sr="con0" ve="2">
+			<code>801067335</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Asleep</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.NOT_AWAKE</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>22626</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+			<Int sr="arg3" val="1"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1644139247757</cdate>
+		<name>logging</name>
+		<pids>324,314</pids>
+		<scenes>log_pill,log_blind,log_activity</scenes>
+		<tids>50,241,242,240,51,321,289,253,53,290,262,265,52,263,288,282,283,269,264,254,252,267,251,325,7,316,5,255,250,315,281</tids>
+	</Project>
+	<Scene sr="scenelog_activity">
+		<cdate>1474171286411</cdate>
+		<edate>1644742731657</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1542</heightPort>
+		<nme>log_activity</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>924</widthPort>
+		<EditTextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,921,448,58,75,527,619</geom>
+			<valueselectedTask>5</valueselectedTask>
+			<Str sr="arg0" ve="3">activity</Str>
+			<Str sr="arg1" ve="3">%Alog_input</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#9C2BAB8F</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="4"/>
+				<Str sr="arg5" ve="3">#FFC72E2E</Str>
+				<Int sr="arg6" val="1"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>263</clickTask>
+			<flags>4</flags>
+			<geom>78,943,796,165,346,693,224,51</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">Spara</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements10" ve="3">
+			<clickTask>264</clickTask>
+			<flags>4</flags>
+			<geom>300,473,308,124,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">timestamp</Str>
+			<Str sr="arg1" ve="3">timestamp</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PickerElement sr="elements2">
+			<flags>4</flags>
+			<geom>321,700,138,207,157,505,100,150</geom>
+			<valueselectedTask>51</valueselectedTask>
+			<Str sr="arg0" ve="3">Energy</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3">
+				<var>%Alog_energy</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</PickerElement>
+		<PickerElement sr="elements3">
+			<flags>4</flags>
+			<geom>101,696,138,207,32,505,100,150</geom>
+			<valueselectedTask>50</valueselectedTask>
+			<Str sr="arg0" ve="3">Happiness</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3">
+				<var>%Alog_mood</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="1"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</PickerElement>
+		<PickerElement sr="elements4">
+			<flags>4</flags>
+			<geom>528,700,138,207,282,505,100,150</geom>
+			<valueselectedTask>52</valueselectedTask>
+			<Str sr="arg0" ve="3">sov-trötthet</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3">
+				<var>%Alog_sleepiness</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</PickerElement>
+		<PickerElement sr="elements5">
+			<flags>4</flags>
+			<geom>736,700,138,207,456,505,100,150</geom>
+			<valueselectedTask>53</valueselectedTask>
+			<Str sr="arg0" ve="3">productivity</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3">
+				<var>%Alog_productivity</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</PickerElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>321,630,136,69,157,455,99,50</geom>
+			<Str sr="arg0" ve="3">Energy_label</Str>
+			<Str sr="arg1" ve="3">Energi</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>78,630,207,69,7,455,150,50</geom>
+			<Str sr="arg0" ve="3">happiness_label</Str>
+			<Str sr="arg1" ve="3">Humör</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>493,630,207,69,257,455,150,50</geom>
+			<Str sr="arg0" ve="3">Sov_trötthet_label</Str>
+			<Str sr="arg1" ve="3">Sov-trötthet</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>702,630,216,72,534,501,156,52</geom>
+			<Str sr="arg0" ve="3">productivity_label</Str>
+			<Str sr="arg1" ve="3">utförde</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">tmp</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scenelog_blind">
+		<cdate>1635244829087</cdate>
+		<edate>1643669510750</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2087</heightPort>
+		<nme>log_blind</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<SpinnerElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,85,1080,208,0,504,607,168</geom>
+			<itemselectedTask>267</itemselectedTask>
+			<Str sr="arg0" ve="3">Spinner1</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%Blind_pills</Str>
+			<Scene sr="arg3">
+				<Scene sr="val">
+					<cdate>1635245903006</cdate>
+					<edate>1635245903006</edate>
+					<heightLand>168</heightLand>
+					<heightPort>208</heightPort>
+					<nme>spinner</nme>
+					<widthLand>607</widthLand>
+					<widthPort>1080</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>1</flags>
+						<geom>438,15,153,137,438,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>112,15,310,137,112,15,310,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>15,15,96,137,15,15,96,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">spinner</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+		</SpinnerElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>269</clickTask>
+			<flags>4</flags>
+			<geom>527,1331,350,300,527,1331,350,300</geom>
+			<Str sr="arg0" ve="3">done</Str>
+			<Str sr="arg1" ve="3">done</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">log_pill</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scenelog_pill">
+		<cdate>1635244829087</cdate>
+		<edate>1652004208462</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2087</heightPort>
+		<nme>log_pill</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<CheckBoxElement sr="elements0">
+			<checkchangeTask>251</checkchangeTask>
+			<flags>4</flags>
+			<geom>327,706,175,225,573,307,72,60</geom>
+			<Str sr="arg0" ve="3">blind</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<PickerElement sr="elements1">
+			<flags>4</flags>
+			<geom>327,431,175,225,425,505,234,455</geom>
+			<valueselectedTask>252</valueselectedTask>
+			<Str sr="arg0" ve="3">count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="4"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</PickerElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,706,277,225,450,504,224,452</geom>
+			<Str sr="arg0" ve="3">Blind</Str>
+			<Str sr="arg1" ve="3">Blind</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>2,431,275,225,348,282,200,198</geom>
+			<Str sr="arg0" ve="3">Pill count</Str>
+			<Str sr="arg1" ve="3">Pill count</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<SpinnerElement sr="elements4">
+			<flags>4</flags>
+			<geom>0,85,1080,208,0,504,607,168</geom>
+			<itemselectedTask>253</itemselectedTask>
+			<Str sr="arg0" ve="3">Spinner1</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%Medicines</Str>
+			<Scene sr="arg3">
+				<Scene sr="val">
+					<cdate>1635245903006</cdate>
+					<edate>1635245903006</edate>
+					<heightLand>168</heightLand>
+					<heightPort>208</heightPort>
+					<nme>spinner</nme>
+					<widthLand>607</widthLand>
+					<widthPort>1080</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>1</flags>
+						<geom>438,15,153,137,438,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>112,15,310,137,112,15,310,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>15,15,96,137,15,15,96,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">spinner</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+		</SpinnerElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>254</clickTask>
+			<flags>4</flags>
+			<geom>102,1331,375,300,252,1406,375,300</geom>
+			<Str sr="arg0" ve="3">log</Str>
+			<Str sr="arg1" ve="3">log</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>255</clickTask>
+			<flags>4</flags>
+			<geom>527,1331,350,300,527,1331,350,300</geom>
+			<Str sr="arg0" ve="3">done</Str>
+			<Str sr="arg1" ve="3">done</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">log_pill</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task240">
+		<cdate>1615891585725</cdate>
+		<edate>1647250781236</edate>
+		<id>240</id>
+		<nme>get_next_event</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%input</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par2</Str>
+			<Str sr="arg1" ve="3">129600</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>1269159260</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>5</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TYPE>0</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Calendar from %start to %end</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevids()
+Event id list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctoccurrenceids()
+Occurrence identifier list
+-1 for non recurring events, valid otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctorgs()
+Email event owner list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cttitles()
+Title list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctdescs()
+Description list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctstarts()
+Start time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ctends()
+End time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctlocations()
+Location list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%cttimezones()
+Timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctcolors()
+Events colors in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctendtimezones()
+End timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctalldays()
+All day list
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctattendeeemails()
+Attendees email list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctattendeenames()
+Attendees name list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%ctavailable()
+Available list
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%ctremids()
+List of reminder ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%ctremmethods()
+List of reminder methods
+Values are: ALERT, DEFAULT, SMS, EMAIL, ALARM&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%ctremminutes()
+List of reminder minutes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%calendar</lhs>
+					<op>2</op>
+					<rhs>calendar</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Str sr="arg1" ve="3">1:%cttitles(#)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or2</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%cttitles(%iii)</lhs>
+					<op>2</op>
+					<rhs>%name</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%cttitles(%iii)</lhs>
+					<op>2</op>
+					<rhs>%altname</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%ctstarts(%iii)</lhs>
+					<op>7</op>
+					<rhs>%start</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%ctstarts(%iii)</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">-1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%input</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">%input1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%altname</Str>
+			<Str sr="arg1" ve="3">%input1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%calendar</Str>
+			<Str sr="arg1" ve="3">%input2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%input3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%altname</Str>
+			<Str sr="arg1" ve="3">%input4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input4</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%end</Str>
+			<Str sr="arg1" ve="3">%start + %par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>1269159260</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>8</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%end</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>63</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TYPE>0</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>routine from %start to %end</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevids()
+Event id list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctoccurrenceids()
+Occurrence identifier list
+-1 for non recurring events, valid otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctorgs()
+Email event owner list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cttitles()
+Title list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctdescs()
+Description list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctstarts()
+Start time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ctends()
+End time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctlocations()
+Location list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%cttimezones()
+Timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctcolors()
+Events colors in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctendtimezones()
+End timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctalldays()
+All day list
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctattendeeemails()
+Attendees email list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctattendeenames()
+Attendees name list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%ctavailable()
+Available list
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%ctremids()
+List of reminder ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%ctremmethods()
+List of reminder methods
+Values are: ALERT, DEFAULT, SMS, EMAIL, ALARM&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%ctremminutes()
+List of reminder minutes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%calendar</lhs>
+					<op>2</op>
+					<rhs>routine</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task241">
+		<cdate>1615892865540</cdate>
+		<edate>1644746210727</edate>
+		<id>241</id>
+		<nme>format_time_length</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_h</Str>
+			<Str sr="arg1" ve="3">floor((%par1)/3600)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_min</Str>
+			<Str sr="arg1" ve="3">((%par1) % 3600)/60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%length_h:%length_min:%length_sec</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%length_h:%length_min</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_min</Str>
+			<Str sr="arg1" ve="3">floor(%length_min)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_sec</Str>
+			<Str sr="arg1" ve="3">round((%par1) % 60)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_sec</Str>
+			<Str sr="arg1" ve="3">0%length_sec</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%length_sec</lhs>
+					<op>6</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_min</Str>
+			<Str sr="arg1" ve="3">round(%length_min)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%length_min</Str>
+			<Str sr="arg1" ve="3">0%length_min</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%length_min</lhs>
+					<op>6</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task242">
+		<cdate>1615890769726</cdate>
+		<edate>1644749408730</edate>
+		<id>242</id>
+		<nme>sleep_report</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Does not include naps! Check @1611077400, jan 19 18:30</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Sleep_time</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%vakna</lhs>
+					<op>2</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%asleep + 3600</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%fail_count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Fails</Str>
+			<Int sr="arg1" val="99"/>
+			<Str sr="arg2" ve="3">%asleep</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">exception</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%fail_count</lhs>
+					<op>7</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">loop_start</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sleep_diff</Str>
+			<Str sr="arg1" ve="3">%vakna - %asleep</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">format_time_length</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%sleep_diff</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%sleep_dur</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Sleep_time</Str>
+			<Int sr="arg1" val="300"/>
+			<Str sr="arg2" ve="3">%sleep_dur</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%Fails</Str>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%sleep_total</Str>
+			<Int sr="arg1">
+				<var>%sleep_diff</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%vakna</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">loop_start</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%count</lhs>
+					<op>6</op>
+					<rhs>100</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>548</code>
+			<label>end</label>
+			<Str sr="arg0" ve="3">finished %sleep_total %count</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sleep_avg_raw</Str>
+			<Str sr="arg1" ve="3">round(%sleep_total / %count)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">format_time_length</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%sleep_avg_raw</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%Sleep_time_avg</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%sleep_avg_raw %Sleep_time_avg</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>523</code>
+			<label>exception</label>
+			<Str sr="arg0" ve="3">%fail</Str>
+			<Str sr="arg1" ve="3">%count %start</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Sleep_time_avg</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>Mar 11, 11:00, 2021</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%TIMES - 7*86400</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<label>Jan 1, 00:00, 2021</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">1609455600</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>549</code>
+			<label>loop_start</label>
+			<Str sr="arg0" ve="3">%asleep</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">get_next_event</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">asleep,calendar,%start</Str>
+			<Str sr="arg3" ve="3">259200</Str>
+			<Str sr="arg4" ve="3">%asleep</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">end</Str>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%asleep</lhs>
+					<op>2</op>
+					<rhs>-1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%asleep</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">get_next_event</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">vakna,routine,%asleep</Str>
+			<Str sr="arg3" ve="3">57600</Str>
+			<Str sr="arg4" ve="3">%vakna</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task250">
+		<cdate>1635244739565</cdate>
+		<edate>1652004184406</edate>
+		<id>250</id>
+		<nme>log_pill</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">log_pill</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">log_pill</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_notification_enhanced_encryption</nme>
+		</Img>
+	</Task>
+	<Task sr="task251">
+		<cdate>1635245511285</cdate>
+		<edate>1635245511285</edate>
+		<id>251</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blind</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task252">
+		<cdate>1635245591225</cdate>
+		<edate>1635245591225</edate>
+		<id>252</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task253">
+		<cdate>1635246130989</cdate>
+		<edate>1635246130989</edate>
+		<id>253</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%medicine</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task254">
+		<cdate>1635246682617</cdate>
+		<edate>1635246682617</edate>
+		<id>254</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blind</Str>
+			<Str sr="arg1" ve="3">off</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%blind</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%count</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%medicine</Str>
+			<Str sr="arg1" ve="3">%Medicines1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%medicine</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>764435524</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>6</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.DESCRIPTION>%count %blind</com.balda.calendartask.extra.DESCRIPTION>
+					<com.balda.calendartask.extra.DESCRIPTION-type>java.lang.String</com.balda.calendartask.extra.DESCRIPTION-type>
+					<com.balda.calendartask.extra.END>%TIMES</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>64</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>1</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.REM_METHOD>-1</com.balda.calendartask.extra.REM_METHOD>
+					<com.balda.calendartask.extra.REM_METHOD-type>java.lang.Integer</com.balda.calendartask.extra.REM_METHOD-type>
+					<com.balda.calendartask.extra.START>%TIMES</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>Europe/Stockholm</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>%medicine</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Add %medicine to log</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevid
+Event id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.DESCRIPTION com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireAddEvent</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task255">
+		<cdate>1635247222583</cdate>
+		<edate>1635247222583</edate>
+		<id>255</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">log_pill</Str>
+		</Action>
+	</Task>
+	<Task sr="task262">
+		<cdate>1643468459319</cdate>
+		<edate>1649856897227</edate>
+		<id>262</id>
+		<nme>save activity log</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">notepad/activity.txt</Str>
+			<Str sr="arg1" ve="3">%DATE %TIME %Alog_input Mood: %Alog_mood Energy: %Alog_energy sleepiness: %Alog_sleepiness Productivity: %Alog_productivity</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Alog_input</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">log_activity</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%Alog_mood, %Alog_energy, %Alog_productivity, %Alog_tiredness</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">0,0,0,0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Alog_input</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task263">
+		<cdate>1643468494958</cdate>
+		<edate>1643468494958</edate>
+		<id>263</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">log_activity</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">save activity log</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">log_activity</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task264">
+		<cdate>1643469331641</cdate>
+		<edate>1643469331641</edate>
+		<id>264</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_input</Str>
+			<Str sr="arg1" ve="3">%Alog_input %TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">log_activity</Str>
+			<Str sr="arg1" ve="3">activity</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3"> %TIME</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task265">
+		<cdate>1615890769726</cdate>
+		<edate>1645952979327</edate>
+		<id>265</id>
+		<nme>event_time_stats</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%firstname,%firstcal</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">asleep,calendar</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%firstname,%firstcal</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<label>loop_start</label>
+			<Str sr="arg0" ve="3">get_next_event</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%firstname,%firstcal,%start</Str>
+			<Str sr="arg3" ve="3">200000</Str>
+			<Str sr="arg4" ve="3">%firsttime</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">end</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%firsttime</lhs>
+					<op>2</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%diff</Str>
+			<Str sr="arg1" ve="3">%firsttime % 86400</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">format_time_length</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%diff</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%dur</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%%target_arr</Str>
+			<Int sr="arg1" val="99"/>
+			<Str sr="arg2" ve="3">%dur</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%total</Str>
+			<Int sr="arg1">
+				<var>(%firsttime + 43200) % 86400</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%firsttime</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">loop_start</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%asleep</lhs>
+					<op>1</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<label>end</label>
+			<Str sr="arg0" ve="3">finished %total %count</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%target_arr</Str>
+			<Str sr="arg1" ve="3">S %firstname</Str>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%avg_raw</Str>
+			<Str sr="arg1" ve="3">(round(%total / %count) + 43200) % 86400</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">format_time_length</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%avg_raw</Str>
+			<Str sr="arg3" ve="3">true</Str>
+			<Str sr="arg4" ve="3">%format_avg</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%target_var</Str>
+			<Str sr="arg1" ve="3">%format_avg</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%target_var</Str>
+			<Str sr="arg1" ve="3">S %firstname avg</Str>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>592</code>
+			<Str sr="arg0" ve="3">%target_arr</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>592</code>
+			<Str sr="arg0" ve="3">%target_var</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%target_arr %target_var</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>Mar 11, 11:00, 2021</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">1615456800</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>Mar 11, 11:00, 2021</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%TIMES - 7*86400</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%%target_arr</Str>
+		</Action>
+	</Task>
+	<Task sr="task267">
+		<cdate>1635246130989</cdate>
+		<edate>1635246130989</edate>
+		<id>267</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blind_medicine</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task269">
+		<cdate>1635247222583</cdate>
+		<edate>1635247222583</edate>
+		<id>269</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blind_medicine</Str>
+			<Str sr="arg1" ve="3">%Blind_pills1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%blind_medicine</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>764435524</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>5</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%BPT</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>64</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>1</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.REM_METHOD>-1</com.balda.calendartask.extra.REM_METHOD>
+					<com.balda.calendartask.extra.REM_METHOD-type>java.lang.Integer</com.balda.calendartask.extra.REM_METHOD-type>
+					<com.balda.calendartask.extra.START>%BPT</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>Europe/Stockholm</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>%blind_medicine</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Add %blind_medicine to Calendar</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevid
+Event id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireAddEvent</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%blind_medicine</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">log_blind</Str>
+		</Action>
+	</Task>
+	<Task sr="task281">
+		<cdate>1615890769726</cdate>
+		<edate>1645351281586</edate>
+		<id>281</id>
+		<nme>event_diff_stats</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%firstname,%secondname,%firstcal,%secondcal</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">somna,asleep,routine,calendar</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>389</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%firstname,%secondname,%firstcal,%secondcal</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<label>loop_start</label>
+			<Str sr="arg0" ve="3">get_next_event</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%firstname,%firstcal,%start</Str>
+			<Str sr="arg3" ve="3">220000</Str>
+			<Str sr="arg4" ve="3">%firsttime</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">end</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%firsttime</lhs>
+					<op>2</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">get_next_event</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%secondname,%secondcal,%firsttime</Str>
+			<Str sr="arg3" ve="3">43200</Str>
+			<Str sr="arg4" ve="3">%secondtime</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%secondtime</lhs>
+					<op>2</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%start + 3600</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%diff</Str>
+			<Str sr="arg1" ve="3">%secondtime - %firsttime</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">format_time_length</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%diff</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%dur</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%%target_arr</Str>
+			<Int sr="arg1" val="99"/>
+			<Str sr="arg2" ve="3">%dur</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%total</Str>
+			<Int sr="arg1">
+				<var>%diff</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%target_arr</Str>
+			<Str sr="arg1" ve="3">S %firstname %secondname</Str>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%secondtime</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">loop_start</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%asleep</lhs>
+					<op>1</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>548</code>
+			<label>end</label>
+			<Str sr="arg0" ve="3">finished %total %count</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%avg_raw</Str>
+			<Str sr="arg1" ve="3">round(%total / %count)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">format_time_length</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%avg_raw</Str>
+			<Str sr="arg3" ve="3">true</Str>
+			<Str sr="arg4" ve="3">%format_avg</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%target_var</Str>
+			<Str sr="arg1" ve="3">%format_avg</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%target_var</Str>
+			<Str sr="arg1" ve="3">S %firstname %secondname avg</Str>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>592</code>
+			<Str sr="arg0" ve="3">%target_arr</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>592</code>
+			<Str sr="arg0" ve="3">%target_var</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%target_arr %target_var</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>Mar 11, 11:00, 2021</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">1615456800</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>Mar 11, 11:00, 2021</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">%TIMES - 7*86400</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%%target_arr</Str>
+		</Action>
+	</Task>
+	<Task sr="task282">
+		<cdate>1644140027757</cdate>
+		<edate>1644140271847</edate>
+		<id>282</id>
+		<nme>test_pointer</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%aaa</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%bbb</Str>
+			<Str sr="arg1" ve="3">aaa</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%bbb</Str>
+			<Str sr="arg1" ve="3">aaa</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%%bbb</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task283">
+		<cdate>1644140880019</cdate>
+		<edate>1649581212301</edate>
+		<id>283</id>
+		<nme>compile_weekly_report</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">event_diff_stats</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">somna,asleep,routine,calendar</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">event_diff_stats</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">asleep,vakna,calendar,routine</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%S_somna_asleep %S_somna_asleep_avg</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%S_asleep_vakna %S_asleep_vakna_avg</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">event_time_stats</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">asleep,calendar</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%S_asleep %S_asleep_avg</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task288">
+		<cdate>1508066156281</cdate>
+		<edate>1648216678651</edate>
+		<id>288</id>
+		<nme>Toggl - start time entry</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">"%par1"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">""</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%rtres.data.id</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tries</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%request_body</Str>
+			<Str sr="arg1" ve="3">{"time_entry":{"created_with": "tasker", "description": %par1}}</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>554915598</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<bundle_header>Content-Type application/json</bundle_header>
+					<bundle_header-type>java.lang.String</bundle_header-type>
+					<bundle_param></bundle_param>
+					<bundle_param-type>java.lang.String</bundle_param-type>
+					<com.freehaha.restask.BASICAUTH>%TOGGL_TOKEN:api_token</com.freehaha.restask.BASICAUTH>
+					<com.freehaha.restask.BASICAUTH-type>java.lang.String</com.freehaha.restask.BASICAUTH-type>
+					<com.freehaha.restask.BODY>%request_body</com.freehaha.restask.BODY>
+					<com.freehaha.restask.BODY-type>java.lang.String</com.freehaha.restask.BODY-type>
+					<com.freehaha.restask.CERT></com.freehaha.restask.CERT>
+					<com.freehaha.restask.CERT-type>java.lang.String</com.freehaha.restask.CERT-type>
+					<com.freehaha.restask.CERTPATH>empty</com.freehaha.restask.CERTPATH>
+					<com.freehaha.restask.CERTPATH-type>java.lang.String</com.freehaha.restask.CERTPATH-type>
+					<com.freehaha.restask.CHUNKED>n</com.freehaha.restask.CHUNKED>
+					<com.freehaha.restask.CHUNKED-type>java.lang.String</com.freehaha.restask.CHUNKED-type>
+					<com.freehaha.restask.COOKIE>%rtck</com.freehaha.restask.COOKIE>
+					<com.freehaha.restask.COOKIE-type>java.lang.String</com.freehaha.restask.COOKIE-type>
+					<com.freehaha.restask.COOKIEJAR>restask</com.freehaha.restask.COOKIEJAR>
+					<com.freehaha.restask.COOKIEJAR-type>java.lang.String</com.freehaha.restask.COOKIEJAR-type>
+					<com.freehaha.restask.CUSTOMBODY>y</com.freehaha.restask.CUSTOMBODY>
+					<com.freehaha.restask.CUSTOMBODY-type>java.lang.String</com.freehaha.restask.CUSTOMBODY-type>
+					<com.freehaha.restask.CUSTOMECERT>n</com.freehaha.restask.CUSTOMECERT>
+					<com.freehaha.restask.CUSTOMECERT-type>java.lang.String</com.freehaha.restask.CUSTOMECERT-type>
+					<com.freehaha.restask.HEADER>%rthdr</com.freehaha.restask.HEADER>
+					<com.freehaha.restask.HEADER-type>java.lang.String</com.freehaha.restask.HEADER-type>
+					<com.freehaha.restask.HOST>https://api.track.toggl.com/api/v8/time_entries/start</com.freehaha.restask.HOST>
+					<com.freehaha.restask.HOST-type>java.lang.String</com.freehaha.restask.HOST-type>
+					<com.freehaha.restask.KEEP_COOKIE>n</com.freehaha.restask.KEEP_COOKIE>
+					<com.freehaha.restask.KEEP_COOKIE-type>java.lang.String</com.freehaha.restask.KEEP_COOKIE-type>
+					<com.freehaha.restask.OUTPUT_FILE></com.freehaha.restask.OUTPUT_FILE>
+					<com.freehaha.restask.OUTPUT_FILE-type>java.lang.String</com.freehaha.restask.OUTPUT_FILE-type>
+					<com.freehaha.restask.REDIRECT>y</com.freehaha.restask.REDIRECT>
+					<com.freehaha.restask.REDIRECT-type>java.lang.String</com.freehaha.restask.REDIRECT-type>
+					<com.freehaha.restask.RESPONSE>%rtres</com.freehaha.restask.RESPONSE>
+					<com.freehaha.restask.RESPONSE-type>java.lang.String</com.freehaha.restask.RESPONSE-type>
+					<com.freehaha.restask.RETCODE>%rtcode</com.freehaha.restask.RETCODE>
+					<com.freehaha.restask.RETCODE-type>java.lang.String</com.freehaha.restask.RETCODE-type>
+					<com.freehaha.restask.SYNCCALL>y</com.freehaha.restask.SYNCCALL>
+					<com.freehaha.restask.SYNCCALL-type>java.lang.String</com.freehaha.restask.SYNCCALL-type>
+					<com.freehaha.restask.TIMEOUT>30</com.freehaha.restask.TIMEOUT>
+					<com.freehaha.restask.TIMEOUT-type>java.lang.String</com.freehaha.restask.TIMEOUT-type>
+					<com.freehaha.restask.TYPE>POST</com.freehaha.restask.TYPE>
+					<com.freehaha.restask.TYPE-type>java.lang.String</com.freehaha.restask.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>REST call</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.freehaha.restask.TYPE com.freehaha.restask.HOST com.freehaha.restask.TIMEOUT com.freehaha.restask.BASICAUTH com.freehaha.restask.CUSTOMBODY com.freehaha.restask.BODY com.freehaha.restask.CUSTOMECERT com.freehaha.restask.CERTPATH com.freehaha.restask.SYNCCALL com.freehaha.restask.HEADER com.freehaha.restask.COOKIE com.freehaha.restask.COOKIEJAR com.freehaha.restask.KEEP_COOKIE com.freehaha.restask.REDIRECT com.freehaha.restask.CHUNKED com.freehaha.restask.OUTPUT_FILE bundle_param bundle_header</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.freehaha.restask</Str>
+			<Str sr="arg2" ve="3">com.freehaha.restask.EditActivity</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rtcode</lhs>
+					<op>1</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Error: Toggl start</Str>
+			<Str sr="arg1" ve="3">code: %rtcode
+res: %rtres
+tries: %tries</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>392</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%rtres</Str>
+			<Str sr="arg2" ve="3">JSON</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">started new task %rtres.data.id %rtres.data.description after %tries tries</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task289">
+		<cdate>1508066156281</cdate>
+		<edate>1648205069591</edate>
+		<id>289</id>
+		<nme>Toggl - stop time entry</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time_entry_id</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>392</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%rtres</Str>
+			<Str sr="arg2" ve="3">JSON</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">stopped %rtres.data.id %rtres.data.description</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggl - current time entry</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%time_entry_id</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">-1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time_entry_id</lhs>
+					<op>0</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>554915598</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<bundle_header>Content-Type application/json</bundle_header>
+					<bundle_header-type>java.lang.String</bundle_header-type>
+					<bundle_param></bundle_param>
+					<bundle_param-type>java.lang.String</bundle_param-type>
+					<com.freehaha.restask.BASICAUTH>%TOGGL_TOKEN:api_token</com.freehaha.restask.BASICAUTH>
+					<com.freehaha.restask.BASICAUTH-type>java.lang.String</com.freehaha.restask.BASICAUTH-type>
+					<com.freehaha.restask.BODY>%request_body</com.freehaha.restask.BODY>
+					<com.freehaha.restask.BODY-type>java.lang.String</com.freehaha.restask.BODY-type>
+					<com.freehaha.restask.CERT></com.freehaha.restask.CERT>
+					<com.freehaha.restask.CERT-type>java.lang.String</com.freehaha.restask.CERT-type>
+					<com.freehaha.restask.CERTPATH>empty</com.freehaha.restask.CERTPATH>
+					<com.freehaha.restask.CERTPATH-type>java.lang.String</com.freehaha.restask.CERTPATH-type>
+					<com.freehaha.restask.CHUNKED>n</com.freehaha.restask.CHUNKED>
+					<com.freehaha.restask.CHUNKED-type>java.lang.String</com.freehaha.restask.CHUNKED-type>
+					<com.freehaha.restask.COOKIE>%rtck</com.freehaha.restask.COOKIE>
+					<com.freehaha.restask.COOKIE-type>java.lang.String</com.freehaha.restask.COOKIE-type>
+					<com.freehaha.restask.COOKIEJAR>restask</com.freehaha.restask.COOKIEJAR>
+					<com.freehaha.restask.COOKIEJAR-type>java.lang.String</com.freehaha.restask.COOKIEJAR-type>
+					<com.freehaha.restask.CUSTOMBODY>n</com.freehaha.restask.CUSTOMBODY>
+					<com.freehaha.restask.CUSTOMBODY-type>java.lang.String</com.freehaha.restask.CUSTOMBODY-type>
+					<com.freehaha.restask.CUSTOMECERT>n</com.freehaha.restask.CUSTOMECERT>
+					<com.freehaha.restask.CUSTOMECERT-type>java.lang.String</com.freehaha.restask.CUSTOMECERT-type>
+					<com.freehaha.restask.HEADER>%rthdr</com.freehaha.restask.HEADER>
+					<com.freehaha.restask.HEADER-type>java.lang.String</com.freehaha.restask.HEADER-type>
+					<com.freehaha.restask.HOST>https://api.track.toggl.com/api/v8/time_entries/%time_entry_id/stop</com.freehaha.restask.HOST>
+					<com.freehaha.restask.HOST-type>java.lang.String</com.freehaha.restask.HOST-type>
+					<com.freehaha.restask.KEEP_COOKIE>n</com.freehaha.restask.KEEP_COOKIE>
+					<com.freehaha.restask.KEEP_COOKIE-type>java.lang.String</com.freehaha.restask.KEEP_COOKIE-type>
+					<com.freehaha.restask.OUTPUT_FILE></com.freehaha.restask.OUTPUT_FILE>
+					<com.freehaha.restask.OUTPUT_FILE-type>java.lang.String</com.freehaha.restask.OUTPUT_FILE-type>
+					<com.freehaha.restask.REDIRECT>y</com.freehaha.restask.REDIRECT>
+					<com.freehaha.restask.REDIRECT-type>java.lang.String</com.freehaha.restask.REDIRECT-type>
+					<com.freehaha.restask.RESPONSE>%rtres</com.freehaha.restask.RESPONSE>
+					<com.freehaha.restask.RESPONSE-type>java.lang.String</com.freehaha.restask.RESPONSE-type>
+					<com.freehaha.restask.RETCODE>%rtcode</com.freehaha.restask.RETCODE>
+					<com.freehaha.restask.RETCODE-type>java.lang.String</com.freehaha.restask.RETCODE-type>
+					<com.freehaha.restask.SYNCCALL>y</com.freehaha.restask.SYNCCALL>
+					<com.freehaha.restask.SYNCCALL-type>java.lang.String</com.freehaha.restask.SYNCCALL-type>
+					<com.freehaha.restask.TIMEOUT>30</com.freehaha.restask.TIMEOUT>
+					<com.freehaha.restask.TIMEOUT-type>java.lang.String</com.freehaha.restask.TIMEOUT-type>
+					<com.freehaha.restask.TYPE>PUT</com.freehaha.restask.TYPE>
+					<com.freehaha.restask.TYPE-type>java.lang.String</com.freehaha.restask.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>REST call</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.freehaha.restask.TYPE com.freehaha.restask.HOST com.freehaha.restask.TIMEOUT com.freehaha.restask.BASICAUTH com.freehaha.restask.CUSTOMBODY com.freehaha.restask.BODY com.freehaha.restask.CUSTOMECERT com.freehaha.restask.CERTPATH com.freehaha.restask.SYNCCALL com.freehaha.restask.HEADER com.freehaha.restask.COOKIE com.freehaha.restask.COOKIEJAR com.freehaha.restask.KEEP_COOKIE com.freehaha.restask.REDIRECT com.freehaha.restask.CHUNKED com.freehaha.restask.OUTPUT_FILE bundle_param bundle_header</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.freehaha.restask</Str>
+			<Str sr="arg2" ve="3">com.freehaha.restask.EditActivity</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rtcode</lhs>
+					<op>1</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Error: Toggl stop</Str>
+			<Str sr="arg1" ve="3">code: %rtcode
+res: %rtres</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task290">
+		<cdate>1508066156281</cdate>
+		<edate>1646818667470</edate>
+		<id>290</id>
+		<nme>Toggl - current time entry</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>554915598</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<bundle_header>Content-Type application/json</bundle_header>
+					<bundle_header-type>java.lang.String</bundle_header-type>
+					<bundle_param></bundle_param>
+					<bundle_param-type>java.lang.String</bundle_param-type>
+					<com.freehaha.restask.BASICAUTH>%TOGGL_TOKEN:api_token</com.freehaha.restask.BASICAUTH>
+					<com.freehaha.restask.BASICAUTH-type>java.lang.String</com.freehaha.restask.BASICAUTH-type>
+					<com.freehaha.restask.BODY>%request_body</com.freehaha.restask.BODY>
+					<com.freehaha.restask.BODY-type>java.lang.String</com.freehaha.restask.BODY-type>
+					<com.freehaha.restask.CERT></com.freehaha.restask.CERT>
+					<com.freehaha.restask.CERT-type>java.lang.String</com.freehaha.restask.CERT-type>
+					<com.freehaha.restask.CERTPATH>empty</com.freehaha.restask.CERTPATH>
+					<com.freehaha.restask.CERTPATH-type>java.lang.String</com.freehaha.restask.CERTPATH-type>
+					<com.freehaha.restask.CHUNKED>n</com.freehaha.restask.CHUNKED>
+					<com.freehaha.restask.CHUNKED-type>java.lang.String</com.freehaha.restask.CHUNKED-type>
+					<com.freehaha.restask.COOKIE>%rtck</com.freehaha.restask.COOKIE>
+					<com.freehaha.restask.COOKIE-type>java.lang.String</com.freehaha.restask.COOKIE-type>
+					<com.freehaha.restask.COOKIEJAR>restask</com.freehaha.restask.COOKIEJAR>
+					<com.freehaha.restask.COOKIEJAR-type>java.lang.String</com.freehaha.restask.COOKIEJAR-type>
+					<com.freehaha.restask.CUSTOMBODY>n</com.freehaha.restask.CUSTOMBODY>
+					<com.freehaha.restask.CUSTOMBODY-type>java.lang.String</com.freehaha.restask.CUSTOMBODY-type>
+					<com.freehaha.restask.CUSTOMECERT>n</com.freehaha.restask.CUSTOMECERT>
+					<com.freehaha.restask.CUSTOMECERT-type>java.lang.String</com.freehaha.restask.CUSTOMECERT-type>
+					<com.freehaha.restask.HEADER>%rthdr</com.freehaha.restask.HEADER>
+					<com.freehaha.restask.HEADER-type>java.lang.String</com.freehaha.restask.HEADER-type>
+					<com.freehaha.restask.HOST>https://api.track.toggl.com/api/v8/time_entries/current</com.freehaha.restask.HOST>
+					<com.freehaha.restask.HOST-type>java.lang.String</com.freehaha.restask.HOST-type>
+					<com.freehaha.restask.KEEP_COOKIE>n</com.freehaha.restask.KEEP_COOKIE>
+					<com.freehaha.restask.KEEP_COOKIE-type>java.lang.String</com.freehaha.restask.KEEP_COOKIE-type>
+					<com.freehaha.restask.OUTPUT_FILE></com.freehaha.restask.OUTPUT_FILE>
+					<com.freehaha.restask.OUTPUT_FILE-type>java.lang.String</com.freehaha.restask.OUTPUT_FILE-type>
+					<com.freehaha.restask.REDIRECT>y</com.freehaha.restask.REDIRECT>
+					<com.freehaha.restask.REDIRECT-type>java.lang.String</com.freehaha.restask.REDIRECT-type>
+					<com.freehaha.restask.RESPONSE>%rtres</com.freehaha.restask.RESPONSE>
+					<com.freehaha.restask.RESPONSE-type>java.lang.String</com.freehaha.restask.RESPONSE-type>
+					<com.freehaha.restask.RETCODE>%rtcode</com.freehaha.restask.RETCODE>
+					<com.freehaha.restask.RETCODE-type>java.lang.String</com.freehaha.restask.RETCODE-type>
+					<com.freehaha.restask.SYNCCALL>y</com.freehaha.restask.SYNCCALL>
+					<com.freehaha.restask.SYNCCALL-type>java.lang.String</com.freehaha.restask.SYNCCALL-type>
+					<com.freehaha.restask.TIMEOUT>30</com.freehaha.restask.TIMEOUT>
+					<com.freehaha.restask.TIMEOUT-type>java.lang.String</com.freehaha.restask.TIMEOUT-type>
+					<com.freehaha.restask.TYPE>GET</com.freehaha.restask.TYPE>
+					<com.freehaha.restask.TYPE-type>java.lang.String</com.freehaha.restask.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>REST call</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.freehaha.restask.TYPE com.freehaha.restask.HOST com.freehaha.restask.TIMEOUT com.freehaha.restask.BASICAUTH com.freehaha.restask.CUSTOMBODY com.freehaha.restask.BODY com.freehaha.restask.CUSTOMECERT com.freehaha.restask.CERTPATH com.freehaha.restask.SYNCCALL com.freehaha.restask.HEADER com.freehaha.restask.COOKIE com.freehaha.restask.COOKIEJAR com.freehaha.restask.KEEP_COOKIE com.freehaha.restask.REDIRECT com.freehaha.restask.CHUNKED com.freehaha.restask.OUTPUT_FILE bundle_param bundle_header</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.freehaha.restask</Str>
+			<Str sr="arg2" ve="3">com.freehaha.restask.EditActivity</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>392</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">%rtres</Str>
+			<Str sr="arg2" ve="3">JSON</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%rtres.data.id</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rtcode</lhs>
+					<op>1</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Error: Toggle current</Str>
+			<Str sr="arg1" ve="3">code: %rtcode
+res: %rtres</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">-1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rtres.data</lhs>
+					<op>0</op>
+					<rhs>null</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">no running toggle entry</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">-1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%rtres.data.id</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task315">
+		<cdate>1646653906647</cdate>
+		<edate>1648216597597</edate>
+		<id>315</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Anki_pid</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggl - start time entry</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">anki</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%Anki_pid</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%Anki_pid</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task316">
+		<cdate>1646653983474</cdate>
+		<edate>1648216589614</edate>
+		<id>316</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggl - stop time entry</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%Anki_pid</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Anki_pid</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task321">
+		<cdate>1647250790604</cdate>
+		<edate>1651267849823</edate>
+		<id>321</id>
+		<nme>unblind</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>2022-3-13 12:00</label>
+			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg1" ve="3">1644750000+28*86400</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%newdesc</Str>
+			<Str sr="arg1" ve="3">%unblind(%desc(1)) mg</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%newdesc</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>933425445</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.COLOR>%ctcolors(%iii)</com.balda.calendartask.extra.COLOR>
+					<com.balda.calendartask.extra.COLOR-type>java.lang.String</com.balda.calendartask.extra.COLOR-type>
+					<com.balda.calendartask.extra.DESCRIPTION>%newdesc unblinded</com.balda.calendartask.extra.DESCRIPTION>
+					<com.balda.calendartask.extra.DESCRIPTION-type>java.lang.String</com.balda.calendartask.extra.DESCRIPTION-type>
+					<com.balda.calendartask.extra.END>%ctends(%iii)</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.EVENT>%ctevids(%iii)</com.balda.calendartask.extra.EVENT>
+					<com.balda.calendartask.extra.EVENT-type>java.lang.String</com.balda.calendartask.extra.EVENT-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>64</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>2</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%ctstarts(%iii)</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>%cttimezones(%iii)</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>melatonin</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Modify %ctevids(%iii)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.DESCRIPTION com.balda.calendartask.extra.COLOR com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START com.balda.calendartask.extra.EVENT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireModifyEvent</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%modified</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%cttitles(%iii)</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">start</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iii</lhs>
+					<op>6</op>
+					<rhs>%ctevids(#)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">modified %modified events</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%modified</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%unblind</Str>
+			<Str sr="arg1" ve="3">2,.25,.5,1</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>1269159260</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>5</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.END>%TIMES</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>64</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>0</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.START>%start</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TYPE>0</com.balda.calendartask.extra.TYPE>
+					<com.balda.calendartask.extra.TYPE-type>java.lang.Integer</com.balda.calendartask.extra.TYPE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Calendar from %start to %TIMES</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevids()
+Event id list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ctoccurrenceids()
+Occurrence identifier list
+-1 for non recurring events, valid otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ctorgs()
+Email event owner list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cttitles()
+Title list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ctdescs()
+Description list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ctstarts()
+Start time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ctends()
+End time list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ctlocations()
+Location list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%cttimezones()
+Timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ctcolors()
+Events colors in hex format
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ctendtimezones()
+End timezone list
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%ctalldays()
+All day list
+True if all day event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%ctattendeeemails()
+Attendees email list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%ctattendeenames()
+Attendees name list
+List of list separated by semicolon&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%ctavailable()
+Available list
+True if available for the this event, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%ctremids()
+List of reminder ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%ctremmethods()
+List of reminder methods
+Values are: ALERT, DEFAULT, SMS, EMAIL, ALARM&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%ctremminutes()
+List of reminder minutes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireGetEvents</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>888</code>
+			<label>start</label>
+			<Str sr="arg0" ve="3">%iii</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cttitles(%iii)</lhs>
+					<op>2</op>
+					<rhs>melatonin .5mg</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%desc</Str>
+			<Str sr="arg1" ve="3">%ctdescs(%iii)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%desc</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">start</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%desc(2)</lhs>
+					<op>3</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task325">
+		<cdate>1652418658475</cdate>
+		<edate>1652418701572</edate>
+		<id>325</id>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">asleep</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1474171371410</cdate>
+		<edate>1474171371410</edate>
+		<id>5</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_input</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task50">
+		<cdate>1474714341917</cdate>
+		<edate>1474714341917</edate>
+		<id>50</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_mood</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task51">
+		<cdate>1474714721229</cdate>
+		<edate>1474714721229</edate>
+		<id>51</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_energy</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task52">
+		<cdate>1474714744810</cdate>
+		<edate>1474714744810</edate>
+		<id>52</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_sleepiness</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task53">
+		<cdate>1474715216797</cdate>
+		<edate>1474715216797</edate>
+		<id>53</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_productivity</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1474171893535</cdate>
+		<edate>1643469424494</edate>
+		<id>7</id>
+		<nme>log activity</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Alog_input</Str>
+			<Str sr="arg1" ve="3">%TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Alog_input</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>987</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">log_activity</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_assignment_turned_in</nme>
+		</Img>
+	</Task>
+</TaskerData>

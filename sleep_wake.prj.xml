@@ -1,0 +1,3386 @@
+<TaskerData sr="" dvi="1" tv="5.15.14">
+	<Profile sr="prof130" ve="2">
+		<cdate>1478478175220</cdate>
+		<clp>true</clp>
+		<edate>1604997135523</edate>
+		<id>130</id>
+		<limit>true</limit>
+		<mid0>131</mid0>
+		<nme>poke_if_asleep</nme>
+		<Time sr="con0">
+			<fromvar>%Poke_if_asleep</fromvar>
+			<tovar>%Poke_if_asleep</tovar>
+		</Time>
+	</Profile>
+	<Profile sr="prof134" ve="2">
+		<cdate>1478478485005</cdate>
+		<clp>true</clp>
+		<edate>1651932271862</edate>
+		<flags>8</flags>
+		<id>134</id>
+		<mid0>135</mid0>
+		<nme>ap:sleep</nme>
+		<State sr="con0" ve="2">
+			<code>1432019511</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Command>sleep=:=.*</Command>
+					<Command-type>java.lang.String</Command-type>
+					<CommandCaseInsensitive>false</CommandCaseInsensitive>
+					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+					<CommandExact>false</CommandExact>
+					<CommandExact-type>java.lang.Boolean</CommandExact-type>
+					<CommandRegex>true</CommandRegex>
+					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command Filter: sleep=:=.*
+Case Insensitive: false
+Exact: false
+Case Insensitive: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>db618925-bc40-431d-aca8-c71893c8f1a3</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentReceiveCommand</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigReceiveCommand</Str>
+			<Int sr="arg3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof177" ve="2">
+		<cdate>1497377507592</cdate>
+		<clp>true</clp>
+		<edate>1497377507593</edate>
+		<flags>8</flags>
+		<id>177</id>
+		<mid0>135</mid0>
+		<State sr="con0" ve="2">
+			<code>1338880050</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Event Behaviour
+Filter: sleep=:=.* (regex)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<command_params_var>anpar</command_params_var>
+					<command_params_var-type>java.lang.String</command_params_var-type>
+					<command_var>ancomm</command_var>
+					<command_var-type>java.lang.String</command_var-type>
+					<config_notification_command>sleep=:=.*</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<message_single_case_insensitive>false</message_single_case_insensitive>
+					<message_single_case_insensitive-type>java.lang.Boolean</message_single_case_insensitive-type>
+					<message_single_exact>false</message_single_exact>
+					<message_single_exact-type>java.lang.Boolean</message_single_exact-type>
+					<message_single_regex>true</message_single_regex>
+					<message_single_regex-type>java.lang.Boolean</message_single_regex-type>
+					<message_var>anmessage</message_var>
+					<message_var-type>java.lang.String</message_var-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>message_var command_var command_params_var config_notification_command plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>f04c7f33-c0e4-4d9e-b2d9-927d96a7e1e4</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCommand</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigConditionTasker</Str>
+			<Int sr="arg3"/>
+		</State>
+	</Profile>
+	<Profile sr="prof220" ve="2">
+		<cdate>1623539592328</cdate>
+		<clp>true</clp>
+		<edate>1644361130893</edate>
+		<flags>8</flags>
+		<id>220</id>
+		<limit>true</limit>
+		<mid0>245</mid0>
+		<nme>play_asleep</nme>
+		<Event sr="con0" ve="2">
+			<code>2096</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%sl_confidence
+Confidence
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%sl_light
+Light
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%sl_motion
+Motion
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="96"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof271" ve="2">
+		<cdate>1644014560220</cdate>
+		<clp>true</clp>
+		<edate>1650787084890</edate>
+		<flags>8</flags>
+		<id>271</id>
+		<limit>true</limit>
+		<mid0>135</mid0>
+		<nme>shake_sleep</nme>
+		<Event sr="con0" ve="2">
+			<code>3001</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof273" ve="2">
+		<cdate>1644057312387</cdate>
+		<clp>true</clp>
+		<edate>1644184572222</edate>
+		<flags>8</flags>
+		<id>273</id>
+		<limit>true</limit>
+		<mid0>131</mid0>
+		<Event sr="con0" ve="2">
+			<code>2096</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%sl_confidence
+Confidence
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%sl_light
+Light
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%sl_motion
+Motion
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="85"/>
+			<Int sr="arg2" val="6"/>
+			<Int sr="arg3" val="2"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof274" ve="2">
+		<cdate>1524235329194</cdate>
+		<clp>true</clp>
+		<edate>1644058022015</edate>
+		<id>274</id>
+		<limit>true</limit>
+		<mid0>276</mid0>
+		<nme>focus</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.discord.app.AppActivity$Main</cls0>
+			<cls1>org.mariotaku.twidere.activity.MainActivity</cls1>
+			<cls10>com.facebook.mlite.coreui.view.MainActivity</cls10>
+			<cls11>org.thoughtcrime.securesms.RoutingActivity</cls11>
+			<cls2>org.mozilla.firefox.App</cls2>
+			<cls3>com.levelup.palabre.ui.activity.MainActivity</cls3>
+			<cls4>tv.twitch.android.app.core.LandingActivity</cls4>
+			<cls5>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls5>
+			<cls6>free.rm.skytube.gui.activities.MainActivity</cls6>
+			<cls7>com.shatteredpixel.shatteredpixeldungeon.android.AndroidLauncher</cls7>
+			<cls8>ch.protonmail.android.activities.SplashActivity</cls8>
+			<cls9>net.osmand.plus.activities.MapActivity</cls9>
+			<flags>2</flags>
+			<label0>Discord</label0>
+			<label1>Twidere</label1>
+			<label10>Lite</label10>
+			<label11>Signal</label11>
+			<label2>Firefox</label2>
+			<label3>Palabre</label3>
+			<label4>Twitch</label4>
+			<label5>YouTube</label5>
+			<label6>SkyTube</label6>
+			<label7>Shattered Pixel Dungeon</label7>
+			<label8>ProtonMail</label8>
+			<label9>OsmAnd~</label9>
+			<pkg0>com.discord</pkg0>
+			<pkg1>org.mariotaku.twidere</pkg1>
+			<pkg10>com.facebook.mlite</pkg10>
+			<pkg11>org.thoughtcrime.securesms</pkg11>
+			<pkg2>org.mozilla.firefox</pkg2>
+			<pkg3>com.levelup.palabre</pkg3>
+			<pkg4>tv.twitch.android.app</pkg4>
+			<pkg5>com.google.android.youtube</pkg5>
+			<pkg6>free.rm.skytube.oss</pkg6>
+			<pkg7>com.shatteredpixel.shatteredpixeldungeon</pkg7>
+			<pkg8>ch.protonmail.android</pkg8>
+			<pkg9>net.osmand.plus</pkg9>
+		</App>
+	</Profile>
+	<Profile sr="prof278" ve="2">
+		<cdate>1644058349844</cdate>
+		<clp>true</clp>
+		<edate>1644061015311</edate>
+		<flags>8</flags>
+		<id>278</id>
+		<mid0>279</mid0>
+		<Event sr="con0" ve="2">
+			<code>1825107102</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Event Behaviour
+Filter: focus=:=</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<command_params_var>anpar</command_params_var>
+					<command_params_var-type>java.lang.String</command_params_var-type>
+					<command_var>ancomm</command_var>
+					<command_var-type>java.lang.String</command_var-type>
+					<config_notification_command>focus=:=</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<message_single_case_insensitive>false</message_single_case_insensitive>
+					<message_single_case_insensitive-type>java.lang.Boolean</message_single_case_insensitive-type>
+					<message_single_exact>false</message_single_exact>
+					<message_single_exact-type>java.lang.Boolean</message_single_exact-type>
+					<message_single_regex>false</message_single_regex>
+					<message_single_regex-type>java.lang.Boolean</message_single_regex-type>
+					<message_var>anmessage</message_var>
+					<message_var-type>java.lang.String</message_var-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ancomm
+Everything to the right of =:=
+Everything to the right of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anmessage
+Whole AutoNotification Message
+Whole AutoNotification Message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anpar()
+Array of single words to the left of =:=
+Array of single words to the left of =:=&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>message_var command_var command_params_var config_notification_command plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>13a8b0ac-a293-47bf-a0f8-3c9311a11632</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCommandEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigConditionTaskerEvent</Str>
+			<Int sr="arg3" val="1"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof326" ve="2">
+		<cdate>1653000935299</cdate>
+		<clp>true</clp>
+		<edate>1653000935299</edate>
+		<flags>8</flags>
+		<id>326</id>
+		<mid0>135</mid0>
+		<Event sr="con0" ve="2">
+			<code>2077</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%sa_action
+Action
+The intent action that opened the secondary app. Can be empty.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+		</Event>
+	</Profile>
+	<Profile sr="prof38" ve="2">
+		<cdate>1476182313966</cdate>
+		<clp>true</clp>
+		<edate>1476221728285</edate>
+		<id>38</id>
+		<limit>true</limit>
+		<mid0>43</mid0>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%State</lhs>
+					<op>0</op>
+					<rhs>gå upp</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof49" ve="2">
+		<cdate>1476182732945</cdate>
+		<clp>true</clp>
+		<edate>1476535953185</edate>
+		<id>49</id>
+		<limit>true</limit>
+		<mid0>77</mid0>
+		<nme>reminder</nme>
+		<Time sr="con0">
+			<fromvar>%Remind</fromvar>
+			<th>23</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof58" ve="2">
+		<cdate>1476183547607</cdate>
+		<clp>true</clp>
+		<edate>1494847397824</edate>
+		<id>58</id>
+		<mid0>61</mid0>
+		<Event sr="con0" ve="2">
+			<code>1262371049</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Command>remind.*</Command>
+					<Command-type>java.lang.String</Command-type>
+					<CommandCaseInsensitive>false</CommandCaseInsensitive>
+					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+					<CommandExact>false</CommandExact>
+					<CommandExact-type>java.lang.Boolean</CommandExact-type>
+					<CommandRegex>true</CommandRegex>
+					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command Filter: remind.*
+Case Insensitive: false
+Exact: false
+Case Insensitive: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>ee9381d4-007b-4e7a-8c27-fa07e9547d95</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentReceiveCommandEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigReceiveCommandEvent</Str>
+			<Int sr="arg3"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1476182089263</cdate>
+		<name>sleep/wake</name>
+		<pids>271,130,220,49,274,38,134,278,273,177,326,58</pids>
+		<tids>43,57,77,126,245,72,131,35,25,135,61,37,55,276,279,280,201,118,277,142</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_notification_airline_seat_individual_suite</nme>
+		</Img>
+	</Project>
+	<Task sr="task118">
+		<cdate>1478160833326</cdate>
+		<edate>1652485404269</edate>
+		<id>118</id>
+		<nme>test_somna</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke_if_asleep</Str>
+			<Str sr="arg1" ve="3">%TIMES+%Initial_delay</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">poke_if_asleep</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>635205967</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Start</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT>com.urbandroid.lux.action_command_start</com.urbandroid.lux.taskerplugin.extra.EVENT>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.lux.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>402</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.lux</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.lux.integration.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Postpone_delay</Str>
+			<Str sr="arg1" ve="3">%Postpone_delay_init</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Postpones</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>90406179</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Start sleep tracking</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>22626</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">play_asleep</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>810</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>166160670</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionIconString1>&lt;null&gt;</ActionIconString1>
+					<ActionIconString1-type>java.lang.String</ActionIconString1-type>
+					<ActionIconString2>&lt;null&gt;</ActionIconString2>
+					<ActionIconString2-type>java.lang.String</ActionIconString2-type>
+					<ActionIconString3>&lt;null&gt;</ActionIconString3>
+					<ActionIconString3-type>java.lang.String</ActionIconString3-type>
+					<ActionIconString4>&lt;null&gt;</ActionIconString4>
+					<ActionIconString4-type>java.lang.String</ActionIconString4-type>
+					<ActionIconString5>&lt;null&gt;</ActionIconString5>
+					<ActionIconString5-type>java.lang.String</ActionIconString5-type>
+					<AppendTexts>false</AppendTexts>
+					<AppendTexts-type>java.lang.Boolean</AppendTexts-type>
+					<BackgroundColor>&lt;null&gt;</BackgroundColor>
+					<BackgroundColor-type>java.lang.String</BackgroundColor-type>
+					<BadgeType>&lt;null&gt;</BadgeType>
+					<BadgeType-type>java.lang.String</BadgeType-type>
+					<Button1UnlockScreen>false</Button1UnlockScreen>
+					<Button1UnlockScreen-type>java.lang.Boolean</Button1UnlockScreen-type>
+					<Button2UnlockScreen>false</Button2UnlockScreen>
+					<Button2UnlockScreen-type>java.lang.Boolean</Button2UnlockScreen-type>
+					<Button3UnlockScreen>false</Button3UnlockScreen>
+					<Button3UnlockScreen-type>java.lang.Boolean</Button3UnlockScreen-type>
+					<Button4UnlockScreen>false</Button4UnlockScreen>
+					<Button4UnlockScreen-type>java.lang.Boolean</Button4UnlockScreen-type>
+					<Button5UnlockScreen>false</Button5UnlockScreen>
+					<Button5UnlockScreen-type>java.lang.Boolean</Button5UnlockScreen-type>
+					<ChronometerCountDown>false</ChronometerCountDown>
+					<ChronometerCountDown-type>java.lang.Boolean</ChronometerCountDown-type>
+					<Colorize>false</Colorize>
+					<Colorize-type>java.lang.Boolean</Colorize-type>
+					<DismissOnTouchVariable>&lt;null&gt;</DismissOnTouchVariable>
+					<DismissOnTouchVariable-type>java.lang.String</DismissOnTouchVariable-type>
+					<ExtraInfo>&lt;null&gt;</ExtraInfo>
+					<ExtraInfo-type>java.lang.String</ExtraInfo-type>
+					<GroupAlertBehaviour>&lt;null&gt;</GroupAlertBehaviour>
+					<GroupAlertBehaviour-type>java.lang.String</GroupAlertBehaviour-type>
+					<GroupKey>&lt;null&gt;</GroupKey>
+					<GroupKey-type>java.lang.String</GroupKey-type>
+					<IconExpanded>&lt;null&gt;</IconExpanded>
+					<IconExpanded-type>java.lang.String</IconExpanded-type>
+					<IsGroupSummary>false</IsGroupSummary>
+					<IsGroupSummary-type>java.lang.Boolean</IsGroupSummary-type>
+					<IsGroupVariable>&lt;null&gt;</IsGroupVariable>
+					<IsGroupVariable-type>java.lang.String</IsGroupVariable-type>
+					<MediaLayout>false</MediaLayout>
+					<MediaLayout-type>java.lang.Boolean</MediaLayout-type>
+					<MessagingImages>&lt;null&gt;</MessagingImages>
+					<MessagingImages-type>java.lang.String</MessagingImages-type>
+					<MessagingOwnIcon>&lt;null&gt;</MessagingOwnIcon>
+					<MessagingOwnIcon-type>java.lang.String</MessagingOwnIcon-type>
+					<MessagingOwnName>&lt;null&gt;</MessagingOwnName>
+					<MessagingOwnName-type>java.lang.String</MessagingOwnName-type>
+					<MessagingPersonBot>&lt;null&gt;</MessagingPersonBot>
+					<MessagingPersonBot-type>java.lang.String</MessagingPersonBot-type>
+					<MessagingPersonIcons>&lt;null&gt;</MessagingPersonIcons>
+					<MessagingPersonIcons-type>java.lang.String</MessagingPersonIcons-type>
+					<MessagingPersonImportant>&lt;null&gt;</MessagingPersonImportant>
+					<MessagingPersonImportant-type>java.lang.String</MessagingPersonImportant-type>
+					<MessagingPersonNames>&lt;null&gt;</MessagingPersonNames>
+					<MessagingPersonNames-type>java.lang.String</MessagingPersonNames-type>
+					<MessagingPersonUri>&lt;null&gt;</MessagingPersonUri>
+					<MessagingPersonUri-type>java.lang.String</MessagingPersonUri-type>
+					<MessagingSeparator>&lt;null&gt;</MessagingSeparator>
+					<MessagingSeparator-type>java.lang.String</MessagingSeparator-type>
+					<MessagingTexts>&lt;null&gt;</MessagingTexts>
+					<MessagingTexts-type>java.lang.String</MessagingTexts-type>
+					<NotificationChannelBypassDnd>false</NotificationChannelBypassDnd>
+					<NotificationChannelBypassDnd-type>java.lang.Boolean</NotificationChannelBypassDnd-type>
+					<NotificationChannelDescription>&lt;null&gt;</NotificationChannelDescription>
+					<NotificationChannelDescription-type>java.lang.String</NotificationChannelDescription-type>
+					<NotificationChannelId>&lt;null&gt;</NotificationChannelId>
+					<NotificationChannelId-type>java.lang.String</NotificationChannelId-type>
+					<NotificationChannelImportance>&lt;null&gt;</NotificationChannelImportance>
+					<NotificationChannelImportance-type>java.lang.String</NotificationChannelImportance-type>
+					<NotificationChannelName>&lt;null&gt;</NotificationChannelName>
+					<NotificationChannelName-type>java.lang.String</NotificationChannelName-type>
+					<NotificationChannelShowBadge>false</NotificationChannelShowBadge>
+					<NotificationChannelShowBadge-type>java.lang.Boolean</NotificationChannelShowBadge-type>
+					<PersistentVariable>&lt;null&gt;</PersistentVariable>
+					<PersistentVariable-type>java.lang.String</PersistentVariable-type>
+					<PhoneOnly>true</PhoneOnly>
+					<PhoneOnly-type>java.lang.Boolean</PhoneOnly-type>
+					<PriorityVariable>&lt;null&gt;</PriorityVariable>
+					<PriorityVariable-type>java.lang.String</PriorityVariable-type>
+					<PublicVersion>&lt;null&gt;</PublicVersion>
+					<PublicVersion-type>java.lang.String</PublicVersion-type>
+					<ReplyAction>&lt;null&gt;</ReplyAction>
+					<ReplyAction-type>java.lang.String</ReplyAction-type>
+					<ReplyChoices>&lt;null&gt;</ReplyChoices>
+					<ReplyChoices-type>java.lang.String</ReplyChoices-type>
+					<ReplyLabel>&lt;null&gt;</ReplyLabel>
+					<ReplyLabel-type>java.lang.String</ReplyLabel-type>
+					<ShareButtonsVariable>&lt;null&gt;</ShareButtonsVariable>
+					<ShareButtonsVariable-type>java.lang.String</ShareButtonsVariable-type>
+					<SkipPictureCache>false</SkipPictureCache>
+					<SkipPictureCache-type>java.lang.Boolean</SkipPictureCache-type>
+					<SoundPath>&lt;null&gt;</SoundPath>
+					<SoundPath-type>java.lang.String</SoundPath-type>
+					<StatusBarIconString>&lt;null&gt;</StatusBarIconString>
+					<StatusBarIconString-type>java.lang.String</StatusBarIconString-type>
+					<StatusBarTextSize>16</StatusBarTextSize>
+					<StatusBarTextSize-type>java.lang.String</StatusBarTextSize-type>
+					<TextExpanded>&lt;null&gt;</TextExpanded>
+					<TextExpanded-type>java.lang.String</TextExpanded-type>
+					<Time>&lt;null&gt;</Time>
+					<Time-type>java.lang.String</Time-type>
+					<TimeFormat>&lt;null&gt;</TimeFormat>
+					<TimeFormat-type>java.lang.String</TimeFormat-type>
+					<Timeout>&lt;null&gt;</Timeout>
+					<Timeout-type>java.lang.String</Timeout-type>
+					<TitleExpanded>&lt;null&gt;</TitleExpanded>
+					<TitleExpanded-type>java.lang.String</TitleExpanded-type>
+					<UpdateNotification>false</UpdateNotification>
+					<UpdateNotification-type>java.lang.Boolean</UpdateNotification-type>
+					<UseChronometer>false</UseChronometer>
+					<UseChronometer-type>java.lang.Boolean</UseChronometer-type>
+					<UseHTML>false</UseHTML>
+					<UseHTML-type>java.lang.Boolean</UseHTML-type>
+					<Visibility>&lt;null&gt;</Visibility>
+					<Visibility-type>java.lang.String</Visibility-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: brightness
+Status Bar Text Size: 16
+Id: 5635472899
+Separator: ,
+Button 1: delta_brightness=:=-3
+Label 1: DOWN
+Button 2: delta_brightness=:=1
+Label 2: UP
+Only on Phone: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_action_4_icon>&lt;null&gt;</config_action_4_icon>
+					<config_action_4_icon-type>java.lang.String</config_action_4_icon-type>
+					<config_action_5_icon>&lt;null&gt;</config_action_5_icon>
+					<config_action_5_icon-type>java.lang.String</config_action_5_icon-type>
+					<config_notification_action>&lt;null&gt;</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>delta_brightness=:=-3</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>delta_brightness=:=1</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_button4>&lt;null&gt;</config_notification_action_button4>
+					<config_notification_action_button4-type>java.lang.String</config_notification_action_button4-type>
+					<config_notification_action_button5>&lt;null&gt;</config_notification_action_button5>
+					<config_notification_action_button5-type>java.lang.String</config_notification_action_button5-type>
+					<config_notification_action_label1>DOWN</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>UP</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_command>&lt;null&gt;</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>false</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>&lt;null&gt;</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>false</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>&lt;null&gt;</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>brightness</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>&lt;null&gt;</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>StatusBarTextSize config_notification_title config_notification_action_button1 config_notification_action_label1 config_notification_action_button2 config_notification_action_label2 notificaitionid plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>5635472899</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<plugininstanceid>22f493d3-2167-4be2-9989-081eaf648f3a</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotify</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>159543701</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>[ Filter: Temperature: 1700 K ]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<eu.chainfire.lumen.EXTRA_REMOTE_CONTROL_FILTER>k:1700;-3;0</eu.chainfire.lumen.EXTRA_REMOTE_CONTROL_FILTER>
+					<eu.chainfire.lumen.EXTRA_REMOTE_CONTROL_FILTER-type>java.lang.String</eu.chainfire.lumen.EXTRA_REMOTE_CONTROL_FILTER-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">eu.chainfire.lumen</Str>
+			<Str sr="arg2" ve="3">eu.chainfire.lumen.ui.RemoteControlFilterSelectActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>635205967</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stop</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT>com.urbandroid.lux.action_command_stop</com.urbandroid.lux.taskerplugin.extra.EVENT>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.lux.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>402</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.lux</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.lux.integration.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_notification_airline_seat_individual_suite</nme>
+		</Img>
+	</Task>
+	<Task sr="task126">
+		<cdate>1478386083652</cdate>
+		<edate>1646650017138</edate>
+		<id>126</id>
+		<nme>toggle_pa_playlist</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs>set</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.bambuna.podcastaddict.service.player.play</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.bambuna.podcastaddict</Str>
+			<Str sr="arg8" ve="3">com.bambuna.podcastaddict.receiver.PodcastAddictPlayerReceiver</Str>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>1783927965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>%PODCAST_PLAYLIST</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>&lt;null&gt;</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: %PODCAST_PLAYLIST
+Full Screen: false
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>5202df30-9564-47ac-be48-35302b6fe860</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CurrentPlaylist</lhs>
+					<op>0</op>
+					<rhs>##AUDIO##</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">ambient</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CurrentPlaylist</lhs>
+					<op>2</op>
+					<rhs>ambient</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">Music</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CurrentPlaylist</Str>
+			<Str sr="arg1" ve="3">##AUDIO##</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.bambuna.podcastaddict.openplaylist</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">arg1:%CurrentPlaylist</Str>
+			<Str sr="arg5" ve="3">arg2:false</Str>
+			<Str sr="arg6" ve="3">arg3:true</Str>
+			<Str sr="arg7" ve="3">com.bambuna.podcastaddict</Str>
+			<Str sr="arg8" ve="3">com.bambuna.podcastaddict.receiver.PodcastAddictPlayerReceiver</Str>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task131">
+		<cdate>1478478201014</cdate>
+		<edate>1652004171732</edate>
+		<id>131</id>
+		<nme>asleep_timeout</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Poke</lhs>
+					<op>6</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%Poke</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">play_asleep</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">poke_if_asleep</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>1783927965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>1339</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>4</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: 1339
+Full Screen: false
+Control App: Remove Window (needs ID)
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>8391739d-f321-49e0-9ca8-46ec2996d89f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Poke_if_asleep</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>2046367074</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<App>&lt;null&gt;</App>
+					<App-type>java.lang.String</App-type>
+					<CancelAll>false</CancelAll>
+					<CancelAll-type>java.lang.Boolean</CancelAll-type>
+					<CancelPersistent>false</CancelPersistent>
+					<CancelPersistent-type>java.lang.Boolean</CancelPersistent-type>
+					<CaseinsensitiveApp>false</CaseinsensitiveApp>
+					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
+					<CaseinsensitivePackage>false</CaseinsensitivePackage>
+					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
+					<CaseinsensitiveText>false</CaseinsensitiveText>
+					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
+					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
+					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
+					<ExactApp>false</ExactApp>
+					<ExactApp-type>java.lang.Boolean</ExactApp-type>
+					<ExactPackage>false</ExactPackage>
+					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
+					<ExactText>false</ExactText>
+					<ExactText-type>java.lang.Boolean</ExactText-type>
+					<ExactTitle>false</ExactTitle>
+					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
+					<InterceptApps>&lt;StringArray sr=""/&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InvertApp>false</InvertApp>
+					<InvertApp-type>java.lang.Boolean</InvertApp-type>
+					<InvertPackage>false</InvertPackage>
+					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
+					<InvertText>false</InvertText>
+					<InvertText-type>java.lang.Boolean</InvertText-type>
+					<InvertTitle>false</InvertTitle>
+					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<OtherId>&lt;null&gt;</OtherId>
+					<OtherId-type>java.lang.String</OtherId-type>
+					<OtherPackage>&lt;null&gt;</OtherPackage>
+					<OtherPackage-type>java.lang.String</OtherPackage-type>
+					<OtherTag>&lt;null&gt;</OtherTag>
+					<OtherTag-type>java.lang.String</OtherTag-type>
+					<PackageName>&lt;null&gt;</PackageName>
+					<PackageName-type>java.lang.String</PackageName-type>
+					<RegexApp>false</RegexApp>
+					<RegexApp-type>java.lang.Boolean</RegexApp-type>
+					<RegexPackage>false</RegexPackage>
+					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
+					<RegexText>false</RegexText>
+					<RegexText-type>java.lang.Boolean</RegexText-type>
+					<RegexTitle>false</RegexTitle>
+					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
+					<Text>&lt;null&gt;</Text>
+					<Text-type>java.lang.String</Text-type>
+					<Title>&lt;null&gt;</Title>
+					<Title-type>java.lang.String</Title-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Id: 5635472899</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>notificaitionid plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>5635472899</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<plugininstanceid>a2438923-f220-477d-abfd-324cb350bac0</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigCancelNotification</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%asleep</Str>
+			<Str sr="arg1" ve="3">%TIMES - 180</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>764435524</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.calendartask.extra.CALENDAR>6</com.balda.calendartask.extra.CALENDAR>
+					<com.balda.calendartask.extra.CALENDAR-type>java.lang.String</com.balda.calendartask.extra.CALENDAR-type>
+					<com.balda.calendartask.extra.DESCRIPTION>go</com.balda.calendartask.extra.DESCRIPTION>
+					<com.balda.calendartask.extra.DESCRIPTION-type>java.lang.String</com.balda.calendartask.extra.DESCRIPTION-type>
+					<com.balda.calendartask.extra.END>%TIMES</com.balda.calendartask.extra.END>
+					<com.balda.calendartask.extra.END-type>java.lang.String</com.balda.calendartask.extra.END-type>
+					<com.balda.calendartask.extra.INT_VERSION_CODE>64</com.balda.calendartask.extra.INT_VERSION_CODE>
+					<com.balda.calendartask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.calendartask.extra.INT_VERSION_CODE-type>
+					<com.balda.calendartask.extra.OPERATION>1</com.balda.calendartask.extra.OPERATION>
+					<com.balda.calendartask.extra.OPERATION-type>java.lang.Integer</com.balda.calendartask.extra.OPERATION-type>
+					<com.balda.calendartask.extra.REM_METHOD>-1</com.balda.calendartask.extra.REM_METHOD>
+					<com.balda.calendartask.extra.REM_METHOD-type>java.lang.Integer</com.balda.calendartask.extra.REM_METHOD-type>
+					<com.balda.calendartask.extra.START>%asleep</com.balda.calendartask.extra.START>
+					<com.balda.calendartask.extra.START-type>java.lang.String</com.balda.calendartask.extra.START-type>
+					<com.balda.calendartask.extra.TIMEZONE>UTC</com.balda.calendartask.extra.TIMEZONE>
+					<com.balda.calendartask.extra.TIMEZONE-type>java.lang.String</com.balda.calendartask.extra.TIMEZONE-type>
+					<com.balda.calendartask.extra.TITLE>asleep</com.balda.calendartask.extra.TITLE>
+					<com.balda.calendartask.extra.TITLE-type>java.lang.String</com.balda.calendartask.extra.TITLE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Add asleep to log</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ctevid
+Event id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.calendartask.extra.DESCRIPTION com.balda.calendartask.extra.TITLE com.balda.calendartask.extra.TIMEZONE com.balda.calendartask.extra.END com.balda.calendartask.extra.START</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.calendartask</Str>
+			<Str sr="arg2" ve="3">com.balda.calendartask.ui.FireAddEvent</Str>
+			<Int sr="arg3" val="30"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%Postpones_log</Str>
+			<Int sr="arg1" val="99"/>
+			<Str sr="arg2" ve="3">%Postpones</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">shake_sleep</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>1069608106</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BackAction>&lt;null&gt;</BackAction>
+					<BackAction-type>java.lang.String</BackAction-type>
+					<BackMultiAction>&lt;null&gt;</BackMultiAction>
+					<BackMultiAction-type>java.lang.String</BackMultiAction-type>
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<BottomAction>&lt;null&gt;</BottomAction>
+					<BottomAction-type>java.lang.String</BottomAction-type>
+					<BottomLabel>&lt;null&gt;</BottomLabel>
+					<BottomLabel-type>java.lang.String</BottomLabel-type>
+					<BottomLongAction>&lt;null&gt;</BottomLongAction>
+					<BottomLongAction-type>java.lang.String</BottomLongAction-type>
+					<BottomMultiAction>&lt;null&gt;</BottomMultiAction>
+					<BottomMultiAction-type>java.lang.String</BottomMultiAction-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<GoBackOnBackAction>false</GoBackOnBackAction>
+					<GoBackOnBackAction-type>java.lang.Boolean</GoBackOnBackAction-type>
+					<GoBackOnBackMultiAction>false</GoBackOnBackMultiAction>
+					<GoBackOnBackMultiAction-type>java.lang.Boolean</GoBackOnBackMultiAction-type>
+					<ID>1339</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<LightModeManual>&lt;null&gt;</LightModeManual>
+					<LightModeManual-type>java.lang.String</LightModeManual-type>
+					<ListHeader>asleep?</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ManageHistoryScreen>0</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MiddleAction>sleep=:=no</MiddleAction>
+					<MiddleAction-type>java.lang.String</MiddleAction-type>
+					<MiddleLabel>no; cancel</MiddleLabel>
+					<MiddleLabel-type>java.lang.String</MiddleLabel-type>
+					<MiddleLongAction>sleep=:=cancel</MiddleLongAction>
+					<MiddleLongAction-type>java.lang.String</MiddleLongAction-type>
+					<MiddleMultiAction>&lt;null&gt;</MiddleMultiAction>
+					<MiddleMultiAction-type>java.lang.String</MiddleMultiAction-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>sleep=:=shake</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<OpenPhoneAppOnSetList>true</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<QuickCommandPrefix>&lt;null&gt;</QuickCommandPrefix>
+					<QuickCommandPrefix-type>java.lang.String</QuickCommandPrefix-type>
+					<QuickLongCommandPrefix>&lt;null&gt;</QuickLongCommandPrefix>
+					<QuickLongCommandPrefix-type>java.lang.String</QuickLongCommandPrefix-type>
+					<QuickMultiCommandPrefix>&lt;null&gt;</QuickMultiCommandPrefix>
+					<QuickMultiCommandPrefix-type>java.lang.String</QuickMultiCommandPrefix-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<TapCommand>sleep=:=shake</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>&lt;null&gt;</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>&lt;null&gt;</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<TopAction>&lt;null&gt;</TopAction>
+					<TopAction-type>java.lang.String</TopAction-type>
+					<TopLabel>&lt;null&gt;</TopLabel>
+					<TopLabel-type>java.lang.String</TopLabel-type>
+					<TopLongAction>&lt;null&gt;</TopLongAction>
+					<TopLongAction-type>java.lang.String</TopLongAction-type>
+					<TopMultiAction>&lt;null&gt;</TopMultiAction>
+					<TopMultiAction-type>java.lang.String</TopMultiAction-type>
+					<VibrationPattern>40,60,40</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: 1339
+Full Screen: false
+Title: asleep?
+Middle Label: no; cancel
+Middle Action: sleep=:=no
+Middle Long Click Action: sleep=:=cancel
+Motion Action: sleep=:=shake
+Motion Y: sleep=:=shake
+No Prefix if Command: false
+Do Not Disturb: false
+Vibration Pattern: 40,60,40
+Clear History: false
+Open Phone App: true
+Creation Mode: Create Window
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ TopLabel TopAction TopLongAction TopMultiAction MiddleLabel BottomLabel BottomAction BottomLongAction BottomMultiAction QuickCommandPrefix QuickLongCommandPrefix QuickMultiCommandPrefix plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>eae915c5-8b0f-48de-92ca-42fe1882be59</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetQuickScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigSetQuickScreen</Str>
+			<Int sr="arg3" val="120"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>166160670</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionIconString1>&lt;null&gt;</ActionIconString1>
+					<ActionIconString1-type>java.lang.String</ActionIconString1-type>
+					<ActionIconString2>&lt;null&gt;</ActionIconString2>
+					<ActionIconString2-type>java.lang.String</ActionIconString2-type>
+					<ActionIconString3>&lt;null&gt;</ActionIconString3>
+					<ActionIconString3-type>java.lang.String</ActionIconString3-type>
+					<ActionIconString4>&lt;null&gt;</ActionIconString4>
+					<ActionIconString4-type>java.lang.String</ActionIconString4-type>
+					<ActionIconString5>&lt;null&gt;</ActionIconString5>
+					<ActionIconString5-type>java.lang.String</ActionIconString5-type>
+					<AppendTexts>false</AppendTexts>
+					<AppendTexts-type>java.lang.Boolean</AppendTexts-type>
+					<BackgroundColor>&lt;null&gt;</BackgroundColor>
+					<BackgroundColor-type>java.lang.String</BackgroundColor-type>
+					<BadgeType>&lt;null&gt;</BadgeType>
+					<BadgeType-type>java.lang.String</BadgeType-type>
+					<Button1UnlockScreen>false</Button1UnlockScreen>
+					<Button1UnlockScreen-type>java.lang.Boolean</Button1UnlockScreen-type>
+					<Button2UnlockScreen>false</Button2UnlockScreen>
+					<Button2UnlockScreen-type>java.lang.Boolean</Button2UnlockScreen-type>
+					<Button3UnlockScreen>false</Button3UnlockScreen>
+					<Button3UnlockScreen-type>java.lang.Boolean</Button3UnlockScreen-type>
+					<Button4UnlockScreen>false</Button4UnlockScreen>
+					<Button4UnlockScreen-type>java.lang.Boolean</Button4UnlockScreen-type>
+					<Button5UnlockScreen>false</Button5UnlockScreen>
+					<Button5UnlockScreen-type>java.lang.Boolean</Button5UnlockScreen-type>
+					<ChronometerCountDown>false</ChronometerCountDown>
+					<ChronometerCountDown-type>java.lang.Boolean</ChronometerCountDown-type>
+					<Colorize>false</Colorize>
+					<Colorize-type>java.lang.Boolean</Colorize-type>
+					<DismissOnTouchVariable>&lt;null&gt;</DismissOnTouchVariable>
+					<DismissOnTouchVariable-type>java.lang.String</DismissOnTouchVariable-type>
+					<ExtraInfo>&lt;null&gt;</ExtraInfo>
+					<ExtraInfo-type>java.lang.String</ExtraInfo-type>
+					<GroupAlertBehaviour>&lt;null&gt;</GroupAlertBehaviour>
+					<GroupAlertBehaviour-type>java.lang.String</GroupAlertBehaviour-type>
+					<GroupKey>&lt;null&gt;</GroupKey>
+					<GroupKey-type>java.lang.String</GroupKey-type>
+					<IconExpanded>&lt;null&gt;</IconExpanded>
+					<IconExpanded-type>java.lang.String</IconExpanded-type>
+					<IsGroupSummary>false</IsGroupSummary>
+					<IsGroupSummary-type>java.lang.Boolean</IsGroupSummary-type>
+					<IsGroupVariable>&lt;null&gt;</IsGroupVariable>
+					<IsGroupVariable-type>java.lang.String</IsGroupVariable-type>
+					<MediaAlbum>&lt;null&gt;</MediaAlbum>
+					<MediaAlbum-type>java.lang.String</MediaAlbum-type>
+					<MediaArtist>&lt;null&gt;</MediaArtist>
+					<MediaArtist-type>java.lang.String</MediaArtist-type>
+					<MediaDuration>&lt;null&gt;</MediaDuration>
+					<MediaDuration-type>java.lang.String</MediaDuration-type>
+					<MediaIcon>&lt;null&gt;</MediaIcon>
+					<MediaIcon-type>java.lang.String</MediaIcon-type>
+					<MediaLayout>false</MediaLayout>
+					<MediaLayout-type>java.lang.Boolean</MediaLayout-type>
+					<MediaNextCommand>&lt;null&gt;</MediaNextCommand>
+					<MediaNextCommand-type>java.lang.String</MediaNextCommand-type>
+					<MediaPauseCommand>&lt;null&gt;</MediaPauseCommand>
+					<MediaPauseCommand-type>java.lang.String</MediaPauseCommand-type>
+					<MediaPlayCommand>&lt;null&gt;</MediaPlayCommand>
+					<MediaPlayCommand-type>java.lang.String</MediaPlayCommand-type>
+					<MediaPlaybackState>&lt;null&gt;</MediaPlaybackState>
+					<MediaPlaybackState-type>java.lang.String</MediaPlaybackState-type>
+					<MediaPosition>&lt;null&gt;</MediaPosition>
+					<MediaPosition-type>java.lang.String</MediaPosition-type>
+					<MediaPreviousCommand>&lt;null&gt;</MediaPreviousCommand>
+					<MediaPreviousCommand-type>java.lang.String</MediaPreviousCommand-type>
+					<MediaTrack>&lt;null&gt;</MediaTrack>
+					<MediaTrack-type>java.lang.String</MediaTrack-type>
+					<MessagingImages>&lt;null&gt;</MessagingImages>
+					<MessagingImages-type>java.lang.String</MessagingImages-type>
+					<MessagingOwnIcon>&lt;null&gt;</MessagingOwnIcon>
+					<MessagingOwnIcon-type>java.lang.String</MessagingOwnIcon-type>
+					<MessagingOwnName>&lt;null&gt;</MessagingOwnName>
+					<MessagingOwnName-type>java.lang.String</MessagingOwnName-type>
+					<MessagingPersonBot>&lt;null&gt;</MessagingPersonBot>
+					<MessagingPersonBot-type>java.lang.String</MessagingPersonBot-type>
+					<MessagingPersonIcons>&lt;null&gt;</MessagingPersonIcons>
+					<MessagingPersonIcons-type>java.lang.String</MessagingPersonIcons-type>
+					<MessagingPersonImportant>&lt;null&gt;</MessagingPersonImportant>
+					<MessagingPersonImportant-type>java.lang.String</MessagingPersonImportant-type>
+					<MessagingPersonNames>&lt;null&gt;</MessagingPersonNames>
+					<MessagingPersonNames-type>java.lang.String</MessagingPersonNames-type>
+					<MessagingPersonUri>&lt;null&gt;</MessagingPersonUri>
+					<MessagingPersonUri-type>java.lang.String</MessagingPersonUri-type>
+					<MessagingSeparator>&lt;null&gt;</MessagingSeparator>
+					<MessagingSeparator-type>java.lang.String</MessagingSeparator-type>
+					<MessagingTexts>&lt;null&gt;</MessagingTexts>
+					<MessagingTexts-type>java.lang.String</MessagingTexts-type>
+					<NotificationChannelBypassDnd>false</NotificationChannelBypassDnd>
+					<NotificationChannelBypassDnd-type>java.lang.Boolean</NotificationChannelBypassDnd-type>
+					<NotificationChannelDescription>&lt;null&gt;</NotificationChannelDescription>
+					<NotificationChannelDescription-type>java.lang.String</NotificationChannelDescription-type>
+					<NotificationChannelId>&lt;null&gt;</NotificationChannelId>
+					<NotificationChannelId-type>java.lang.String</NotificationChannelId-type>
+					<NotificationChannelImportance>&lt;null&gt;</NotificationChannelImportance>
+					<NotificationChannelImportance-type>java.lang.String</NotificationChannelImportance-type>
+					<NotificationChannelName>&lt;null&gt;</NotificationChannelName>
+					<NotificationChannelName-type>java.lang.String</NotificationChannelName-type>
+					<NotificationChannelShowBadge>false</NotificationChannelShowBadge>
+					<NotificationChannelShowBadge-type>java.lang.Boolean</NotificationChannelShowBadge-type>
+					<PersistentVariable>&lt;null&gt;</PersistentVariable>
+					<PersistentVariable-type>java.lang.String</PersistentVariable-type>
+					<PhoneOnly>true</PhoneOnly>
+					<PhoneOnly-type>java.lang.Boolean</PhoneOnly-type>
+					<PriorityVariable>&lt;null&gt;</PriorityVariable>
+					<PriorityVariable-type>java.lang.String</PriorityVariable-type>
+					<PublicVersion>&lt;null&gt;</PublicVersion>
+					<PublicVersion-type>java.lang.String</PublicVersion-type>
+					<ReplyAction>&lt;null&gt;</ReplyAction>
+					<ReplyAction-type>java.lang.String</ReplyAction-type>
+					<ReplyChoices>&lt;null&gt;</ReplyChoices>
+					<ReplyChoices-type>java.lang.String</ReplyChoices-type>
+					<ReplyLabel>&lt;null&gt;</ReplyLabel>
+					<ReplyLabel-type>java.lang.String</ReplyLabel-type>
+					<ShareButtonsVariable>&lt;null&gt;</ShareButtonsVariable>
+					<ShareButtonsVariable-type>java.lang.String</ShareButtonsVariable-type>
+					<SkipPictureCache>false</SkipPictureCache>
+					<SkipPictureCache-type>java.lang.Boolean</SkipPictureCache-type>
+					<SoundPath>&lt;null&gt;</SoundPath>
+					<SoundPath-type>java.lang.String</SoundPath-type>
+					<StatusBarIconString>&lt;null&gt;</StatusBarIconString>
+					<StatusBarIconString-type>java.lang.String</StatusBarIconString-type>
+					<StatusBarTextSize>16</StatusBarTextSize>
+					<StatusBarTextSize-type>java.lang.String</StatusBarTextSize-type>
+					<TextExpanded>&lt;null&gt;</TextExpanded>
+					<TextExpanded-type>java.lang.String</TextExpanded-type>
+					<Time>&lt;null&gt;</Time>
+					<Time-type>java.lang.String</Time-type>
+					<TimeFormat>&lt;null&gt;</TimeFormat>
+					<TimeFormat-type>java.lang.String</TimeFormat-type>
+					<Timeout>180</Timeout>
+					<Timeout-type>java.lang.String</Timeout-type>
+					<TitleExpanded>&lt;null&gt;</TitleExpanded>
+					<TitleExpanded-type>java.lang.String</TitleExpanded-type>
+					<UpdateNotification>false</UpdateNotification>
+					<UpdateNotification-type>java.lang.Boolean</UpdateNotification-type>
+					<UseChronometer>false</UseChronometer>
+					<UseChronometer-type>java.lang.Boolean</UseChronometer-type>
+					<UseHTML>false</UseHTML>
+					<UseHTML-type>java.lang.Boolean</UseHTML-type>
+					<Visibility>1</Visibility>
+					<Visibility-type>java.lang.String</Visibility-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: Asleep?
+Action on Touch: sleep=:=no
+Action on Dismiss: sleep=:=cancel
+Status Bar Text Size: 16
+Id: 1338
+Timeout: 180
+Priority: 2
+Visibility: Public
+Number: %Poke
+Sound: content://settings/system/notification_sound
+Separator: ,
+Button 1: sleep=:=no
+Label 1: no
+Only on Phone: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>&lt;null&gt;</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_action_4_icon>&lt;null&gt;</config_action_4_icon>
+					<config_action_4_icon-type>java.lang.String</config_action_4_icon-type>
+					<config_action_5_icon>&lt;null&gt;</config_action_5_icon>
+					<config_action_5_icon-type>java.lang.String</config_action_5_icon-type>
+					<config_notification_action>sleep=:=no</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>sleep=:=no</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>&lt;null&gt;</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_button4>&lt;null&gt;</config_notification_action_button4>
+					<config_notification_action_button4-type>java.lang.String</config_notification_action_button4-type>
+					<config_notification_action_button5>&lt;null&gt;</config_notification_action_button5>
+					<config_notification_action_button5-type>java.lang.String</config_notification_action_button5-type>
+					<config_notification_action_label1>no</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>&lt;null&gt;</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>sleep=:=cancel</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_command>&lt;null&gt;</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>false</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>&lt;null&gt;</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>%Poke</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>false</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>2</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>&lt;null&gt;</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>Asleep?</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>&lt;null&gt;</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Visibility Timeout StatusBarTextSize config_notification_title config_notification_action config_notification_action_button1 config_notification_action_label1 notificaitionid notificaitionsound config_notification_priority config_notification_number config_notification_action_on_dismiss plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>1338</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>content://settings/system/notification_sound</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<plugininstanceid>842d94d1-099f-45e9-944d-03bb32e1966f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotify</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>62</code>
+			<Str sr="arg0" ve="3">0,40,80,40</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke_if_asleep</Str>
+			<Str sr="arg1" ve="3">%TIMES+60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">shake_sleep</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">pause_playback</Str>
+			<Int sr="arg1">
+				<var>%priority-1</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task135">
+		<cdate>1478478498921</cdate>
+		<edate>1651932433454</edate>
+		<id>135</id>
+		<nme>postpone_asleep</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">shake_sleep</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%apcomm</Str>
+			<Str sr="arg1" ve="3">%ancomm</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ancomm</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">poke_if_asleep</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Postpone_delay</Str>
+			<Str sr="arg1" ve="3">%Postpone_delay * 1.1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%Postpones</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>cancel</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>1783927965</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>1339</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>4</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: 1339
+Full Screen: false
+Control App: Remove Window (needs ID)
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>77525636-d469-42aa-8a0f-0b115e5b7381</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">poke_if_asleep</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Poke_if_asleep</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>no</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>shake</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Error: postpone_delay not set</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3">test</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Postpone_delay</lhs>
+					<op>13</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>248</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>2</op>
+					<rhs>shake</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke_if_asleep</Str>
+			<Str sr="arg1" ve="3">%TIMES+%Postpone_delay</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>1783927965</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>1339</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>4</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern></VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: 1339
+Full Screen: false
+Control App: Remove Window (needs ID)
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>77525636-d469-42aa-8a0f-0b115e5b7381</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>1783927965</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>1339</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>4</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>60,120,60,120,60,120,60,120,60</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: 1339
+Full Screen: false
+Control App: Remove Window (needs ID)
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Vibration Pattern: 60,120,60,120,60,120,60,120,60
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>77525636-d469-42aa-8a0f-0b115e5b7381</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>2</op>
+					<rhs>shake</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>62</code>
+			<Str sr="arg0" ve="3">0,30,90,30</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>2046367074</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<App>&lt;null&gt;</App>
+					<App-type>java.lang.String</App-type>
+					<CancelAll>false</CancelAll>
+					<CancelAll-type>java.lang.Boolean</CancelAll-type>
+					<CaseinsensitiveApp>false</CaseinsensitiveApp>
+					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
+					<CaseinsensitivePackage>false</CaseinsensitivePackage>
+					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
+					<CaseinsensitiveText>false</CaseinsensitiveText>
+					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
+					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
+					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
+					<ExactApp>false</ExactApp>
+					<ExactApp-type>java.lang.Boolean</ExactApp-type>
+					<ExactPackage>false</ExactPackage>
+					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
+					<ExactText>false</ExactText>
+					<ExactText-type>java.lang.Boolean</ExactText-type>
+					<ExactTitle>false</ExactTitle>
+					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
+					<InterceptApps>&lt;StringArray sr=""/&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InvertApp>false</InvertApp>
+					<InvertApp-type>java.lang.Boolean</InvertApp-type>
+					<InvertPackage>false</InvertPackage>
+					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
+					<InvertText>false</InvertText>
+					<InvertText-type>java.lang.Boolean</InvertText-type>
+					<InvertTitle>false</InvertTitle>
+					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<OtherId>&lt;null&gt;</OtherId>
+					<OtherId-type>java.lang.String</OtherId-type>
+					<OtherPackage>&lt;null&gt;</OtherPackage>
+					<OtherPackage-type>java.lang.String</OtherPackage-type>
+					<OtherTag>&lt;null&gt;</OtherTag>
+					<OtherTag-type>java.lang.String</OtherTag-type>
+					<PackageName>&lt;null&gt;</PackageName>
+					<PackageName-type>java.lang.String</PackageName-type>
+					<RegexApp>false</RegexApp>
+					<RegexApp-type>java.lang.Boolean</RegexApp-type>
+					<RegexPackage>false</RegexPackage>
+					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
+					<RegexText>false</RegexText>
+					<RegexText-type>java.lang.Boolean</RegexText-type>
+					<RegexTitle>false</RegexTitle>
+					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
+					<Text>&lt;null&gt;</Text>
+					<Text-type>java.lang.String</Text-type>
+					<Title>&lt;null&gt;</Title>
+					<Title-type>java.lang.String</Title-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Id: 1338</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>notificaitionid plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>1338</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<plugininstanceid>dd0985e6-4f51-4ae1-9825-705486fe392e</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigCancelNotification</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task142">
+		<cdate>1489410403558</cdate>
+		<edate>1602524851720</edate>
+		<id>142</id>
+		<nme>nap</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Poke_if_asleep</Str>
+			<Str sr="arg1" ve="3">%TIMES+1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">poke_if_asleep</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>kalarm</nme>
+			<pkg>net.dinglisch.android.ipack.crystalhd</pkg>
+		</Img>
+	</Task>
+	<Task sr="task201">
+		<cdate>1557773851714</cdate>
+		<edate>1652485432997</edate>
+		<id>201</id>
+		<nme>test_vakna</nme>
+		<pri>7</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>635205967</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stop</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT>com.urbandroid.lux.action_command_stop</com.urbandroid.lux.taskerplugin.extra.EVENT>
+					<com.urbandroid.lux.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.lux.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>459</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.lux.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.lux</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.lux.integration.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="8"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">audio_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">poweramp</Str>
+			<Str sr="arg3" ve="3">1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toggle_pa_playlist</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">ambient</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">audio_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">podcast</Str>
+			<Str sr="arg3" ve="3">play</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">set focus</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>90406179</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stop Sleep tracking</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.STOP_SLEEP_TRACK</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>22626</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_conv_a</nme>
+		</Img>
+	</Task>
+	<Task sr="task245">
+		<cdate>1623539598850</cdate>
+		<edate>1644184606866</edate>
+		<id>245</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">asleep?</Str>
+			<Str sr="arg1" ve="3">%sl_confidence %sl_light %sl_motion</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1474371925773</cdate>
+		<edate>1648315569149</edate>
+		<id>25</id>
+		<nme>audio_control</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%apcomm(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par2</Str>
+			<Str sr="arg1" ve="3">%apcomm(2)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>podcast</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.bambuna.podcastaddict.service.player.%par2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.bambuna.podcastaddict</Str>
+			<Str sr="arg8" ve="3">com.bambuna.podcastaddict.receiver.PodcastAddictPlayerReceiver</Str>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>podcast</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>podcast_playlist</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toggle_pa_playlist</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%par2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">com.maxmpz.audioplayer.API_COMMAND</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">cmd:%par2</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="2"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>poweramp</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task276">
+		<cdate>1644057804331</cdate>
+		<edate>1644057906827</edate>
+		<id>276</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">kill</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>18</code>
+			<App sr="arg0">
+				<appClass>com.discord.app.AppActivity$Main</appClass>
+				<appPkg>com.discord</appPkg>
+				<label>Discord</label>
+			</App>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task277">
+		<cdate>1644058046513</cdate>
+		<edate>1644058369179</edate>
+		<id>277</id>
+		<nme>toggle focus</nme>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">focus</Str>
+			<Int sr="arg1" val="2"/>
+		</Action>
+	</Task>
+	<Task sr="task279">
+		<cdate>1644058388412</cdate>
+		<edate>1644061015311</edate>
+		<id>279</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">set focus</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%ancomm</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task280">
+		<cdate>1644060947284</cdate>
+		<edate>1644274102129</edate>
+		<id>280</id>
+		<nme>set focus</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">focus</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>268157305</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Tile: AutoNotification 2
+Command: focus=:=off
+Label: Focus
+Icon: android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb
+State: Active</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anqueryid
+Query Tile Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%antilecommand
+Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%antiledoubletapcommand
+Double Tap Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%antileicon
+Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%antilelabel
+Label
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%antilestate
+State
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%antilesubtitle
+Subtitle
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"command":"focus=:=off","hideNotifications":false,"icon":"android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb","label":"Focus","requireUnlock":false,"state":"2","tile":"2","tileAdvanced":{},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>6c7b1d2c-42c8-4423-8447-2200711b313c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentTile</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigTile</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">focus</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>268157305</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Tile: AutoNotification 2
+Command: focus=:=on
+Label: Focus
+Icon: android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb
+State: Inactive</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anqueryid
+Query Tile Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%antilecommand
+Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%antiledoubletapcommand
+Double Tap Command
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%antileicon
+Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%antilelabel
+Label
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%antilestate
+State
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%antilesubtitle
+Subtitle
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"command":"focus=:=on","hideNotifications":false,"icon":"android.resource://net.dinglisch.android.taskerm/hd_aaa_ext_bulb","label":"Focus","requireUnlock":false,"state":"1","tile":"2","tileAdvanced":{},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>6c7b1d2c-42c8-4423-8447-2200711b313c</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentTile</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigTile</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1476167990695</cdate>
+		<edate>1602580181477</edate>
+		<id>35</id>
+		<nme>pause_playback</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.soundcloud.android.main.LauncherActivity</appClass>
+				<appPkg>com.soundcloud.android</appPkg>
+				<label>SoundCloud</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">media_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">stop</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">audio_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">podcast</Str>
+			<Str sr="arg3" ve="3">stop</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">audio_control</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">poweramp</Str>
+			<Str sr="arg3" ve="3">2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>1</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>16</code>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1476173454761</cdate>
+		<edate>1602524938410</edate>
+		<id>37</id>
+		<nme>wake_procedure</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%State</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%State</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Remind</Str>
+			<Str sr="arg1" ve="3">%TIMES+60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">remind_menu</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task43">
+		<cdate>1476182348396</cdate>
+		<edate>1602524934184</edate>
+		<id>43</id>
+		<nme>state:gå upp</nme>
+		<Action sr="act0" ve="7">
+			<code>1069608106</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BackAction>&lt;null&gt;</BackAction>
+					<BackAction-type>java.lang.String</BackAction-type>
+					<BackMultiAction>&lt;null&gt;</BackMultiAction>
+					<BackMultiAction-type>java.lang.String</BackMultiAction-type>
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<BottomAction>&lt;null&gt;</BottomAction>
+					<BottomAction-type>java.lang.String</BottomAction-type>
+					<BottomLabel>&lt;null&gt;</BottomLabel>
+					<BottomLabel-type>java.lang.String</BottomLabel-type>
+					<BottomLongAction>&lt;null&gt;</BottomLongAction>
+					<BottomLongAction-type>java.lang.String</BottomLongAction-type>
+					<BottomMultiAction>&lt;null&gt;</BottomMultiAction>
+					<BottomMultiAction-type>java.lang.String</BottomMultiAction-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<GoBackOnBackAction>false</GoBackOnBackAction>
+					<GoBackOnBackAction-type>java.lang.Boolean</GoBackOnBackAction-type>
+					<GoBackOnBackMultiAction>false</GoBackOnBackMultiAction>
+					<GoBackOnBackMultiAction-type>java.lang.Boolean</GoBackOnBackMultiAction-type>
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<LightModeManual>&lt;null&gt;</LightModeManual>
+					<LightModeManual-type>java.lang.String</LightModeManual-type>
+					<ListHeader>gå upp</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ManageHistoryScreen>&lt;null&gt;</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MiddleAction>&lt;null&gt;</MiddleAction>
+					<MiddleAction-type>java.lang.String</MiddleAction-type>
+					<MiddleLabel>&lt;null&gt;</MiddleLabel>
+					<MiddleLabel-type>java.lang.String</MiddleLabel-type>
+					<MiddleLongAction>&lt;null&gt;</MiddleLongAction>
+					<MiddleLongAction-type>java.lang.String</MiddleLongAction-type>
+					<MiddleMultiAction>&lt;null&gt;</MiddleMultiAction>
+					<MiddleMultiAction-type>java.lang.String</MiddleMultiAction-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<OpenPhoneAppOnSetList>false</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<QuickCommandPrefix>&lt;null&gt;</QuickCommandPrefix>
+					<QuickCommandPrefix-type>java.lang.String</QuickCommandPrefix-type>
+					<QuickLongCommandPrefix>&lt;null&gt;</QuickLongCommandPrefix>
+					<QuickLongCommandPrefix-type>java.lang.String</QuickLongCommandPrefix-type>
+					<QuickMultiCommandPrefix>&lt;null&gt;</QuickMultiCommandPrefix>
+					<QuickMultiCommandPrefix-type>java.lang.String</QuickMultiCommandPrefix-type>
+					<SaveScreen>false</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<TapCommand>&lt;null&gt;</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>&lt;null&gt;</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>&lt;null&gt;</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<TopAction>&lt;null&gt;</TopAction>
+					<TopAction-type>java.lang.String</TopAction-type>
+					<TopLabel>&lt;null&gt;</TopLabel>
+					<TopLabel-type>java.lang.String</TopLabel-type>
+					<TopLongAction>&lt;null&gt;</TopLongAction>
+					<TopLongAction-type>java.lang.String</TopLongAction-type>
+					<TopMultiAction>&lt;null&gt;</TopMultiAction>
+					<TopMultiAction-type>java.lang.String</TopMultiAction-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Full Screen: false
+Title: gå upp
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ TopLabel TopAction TopLongAction TopMultiAction MiddleLabel BottomLabel BottomAction BottomLongAction BottomMultiAction QuickCommandPrefix QuickLongCommandPrefix QuickMultiCommandPrefix plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>d9bb7037-7aa1-4090-869e-716328a88126</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetQuickScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigSetQuickScreen</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task55">
+		<cdate>1476182747906</cdate>
+		<edate>1602524930176</edate>
+		<id>55</id>
+		<nme>set_remind</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">300</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%now</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Remind</Str>
+			<Str sr="arg1" ve="3">%now + %par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task57">
+		<cdate>1476183199262</cdate>
+		<edate>1622063430337</edate>
+		<id>57</id>
+		<nme>remind_menu</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%vibrate</Str>
+			<Str sr="arg1" ve="3">100,1,100,1,100,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%vibrate</Str>
+			<Str sr="arg1" ve="3">0,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">%Flow(%State)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>772727343</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BatteryChangedPrefix>&lt;null&gt;</BatteryChangedPrefix>
+					<BatteryChangedPrefix-type>java.lang.String</BatteryChangedPrefix-type>
+					<CommandActions>complete,snooze,cancel</CommandActions>
+					<CommandActions-type>java.lang.String</CommandActions-type>
+					<CommandLabels>complete,snooze,cancel</CommandLabels>
+					<CommandLabels-type>java.lang.String</CommandLabels-type>
+					<DoNotDisturb>false</DoNotDisturb>
+					<DoNotDisturb-type>java.lang.Boolean</DoNotDisturb-type>
+					<DontSet>false</DontSet>
+					<DontSet-type>java.lang.Boolean</DontSet-type>
+					<FirstLineHeight>&lt;null&gt;</FirstLineHeight>
+					<FirstLineHeight-type>java.lang.String</FirstLineHeight-type>
+					<ID>%Wake_procedure</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LastCellSizeAll>false</LastCellSizeAll>
+					<LastCellSizeAll-type>java.lang.Boolean</LastCellSizeAll-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<LightModeManual>&lt;null&gt;</LightModeManual>
+					<LightModeManual-type>java.lang.String</LightModeManual-type>
+					<ListCommand>reminder</ListCommand>
+					<ListCommand-type>java.lang.String</ListCommand-type>
+					<ListHeader>%name</ListHeader>
+					<ListHeader-type>java.lang.String</ListHeader-type>
+					<ListLongCommand>&lt;null&gt;</ListLongCommand>
+					<ListLongCommand-type>java.lang.String</ListLongCommand-type>
+					<LongClickActions>&lt;null&gt;</LongClickActions>
+					<LongClickActions-type>java.lang.String</LongClickActions-type>
+					<ManageHistoryScreen>0</ManageHistoryScreen>
+					<ManageHistoryScreen-type>java.lang.String</ManageHistoryScreen-type>
+					<MotionX>&lt;null&gt;</MotionX>
+					<MotionX-type>java.lang.String</MotionX-type>
+					<MotionY>&lt;null&gt;</MotionY>
+					<MotionY-type>java.lang.String</MotionY-type>
+					<MotionZ>&lt;null&gt;</MotionZ>
+					<MotionZ-type>java.lang.String</MotionZ-type>
+					<NoPrefixIfCommand>false</NoPrefixIfCommand>
+					<NoPrefixIfCommand-type>java.lang.Boolean</NoPrefixIfCommand-type>
+					<OpenPhoneAppOnSetList>true</OpenPhoneAppOnSetList>
+					<OpenPhoneAppOnSetList-type>java.lang.Boolean</OpenPhoneAppOnSetList-type>
+					<RememberPosition>false</RememberPosition>
+					<RememberPosition-type>java.lang.Boolean</RememberPosition-type>
+					<SaveScreen>true</SaveScreen>
+					<SaveScreen-type>java.lang.Boolean</SaveScreen-type>
+					<SendLast>false</SendLast>
+					<SendLast-type>java.lang.Boolean</SendLast-type>
+					<Separator>&lt;null&gt;</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<TapCommand>&lt;null&gt;</TapCommand>
+					<TapCommand-type>java.lang.String</TapCommand-type>
+					<TextFont>&lt;null&gt;</TextFont>
+					<TextFont-type>java.lang.String</TextFont-type>
+					<TitleFont>&lt;null&gt;</TitleFont>
+					<TitleFont-type>java.lang.String</TitleFont-type>
+					<VibrationPattern>%vibrate</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>ID: %Wake_procedure
+Full Screen: false
+Header: %name
+Labels: complete,snooze,cancel
+Actions: complete,snooze,cancel
+Command Prefix: reminder
+Last Line Height Default: false
+Remember Position: false
+No Prefix if Command: false
+Do Not Disturb: false
+Vibration Pattern: %vibrate
+Clear History: false
+Open Phone App: true
+Creation Mode: Create Window
+Save Scren: true
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ CommandLabels CommandActions ListCommand FirstLineHeight LongClickActions ListLongCommand Separator plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>9fa4648d-3874-418e-9174-b8ff7455dc73</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentSetList</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigSetList</Str>
+			<Int sr="arg3" val="120"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task61">
+		<cdate>1476183560703</cdate>
+		<edate>1622064039463</edate>
+		<id>61</id>
+		<nme>parse_remind</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%apcomm</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>1783927965</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ID>&lt;null&gt;</ID>
+					<ID-type>java.lang.String</ID-type>
+					<LaunchOtherApp>&lt;null&gt;</LaunchOtherApp>
+					<LaunchOtherApp-type>java.lang.String</LaunchOtherApp-type>
+					<LaunchOtherAppManual>&lt;null&gt;</LaunchOtherAppManual>
+					<LaunchOtherAppManual-type>java.lang.String</LaunchOtherAppManual-type>
+					<LightMode>&lt;null&gt;</LightMode>
+					<LightMode-type>java.lang.String</LightMode-type>
+					<MediaButtonNexCommand>&lt;null&gt;</MediaButtonNexCommand>
+					<MediaButtonNexCommand-type>java.lang.String</MediaButtonNexCommand-type>
+					<MediaButtonPlayCommand>&lt;null&gt;</MediaButtonPlayCommand>
+					<MediaButtonPlayCommand-type>java.lang.String</MediaButtonPlayCommand-type>
+					<MediaButtonPreviousCommand>&lt;null&gt;</MediaButtonPreviousCommand>
+					<MediaButtonPreviousCommand-type>java.lang.String</MediaButtonPreviousCommand-type>
+					<OpenPhoneApp>2</OpenPhoneApp>
+					<OpenPhoneApp-type>java.lang.String</OpenPhoneApp-type>
+					<OtherAppAction>&lt;null&gt;</OtherAppAction>
+					<OtherAppAction-type>java.lang.String</OtherAppAction-type>
+					<PebbleConnected>false</PebbleConnected>
+					<PebbleConnected-type>java.lang.Boolean</PebbleConnected-type>
+					<PebbleConnectedCommand>&lt;null&gt;</PebbleConnectedCommand>
+					<PebbleConnectedCommand-type>java.lang.String</PebbleConnectedCommand-type>
+					<PebbleDisconnectedCommand>&lt;null&gt;</PebbleDisconnectedCommand>
+					<PebbleDisconnectedCommand-type>java.lang.String</PebbleDisconnectedCommand-type>
+					<VibrationPattern>&lt;null&gt;</VibrationPattern>
+					<VibrationPattern-type>java.lang.String</VibrationPattern-type>
+					<WatchAppOpenedCommand>&lt;null&gt;</WatchAppOpenedCommand>
+					<WatchAppOpenedCommand-type>java.lang.String</WatchAppOpenedCommand-type>
+					<WindowFullscreen>false</WindowFullscreen>
+					<WindowFullscreen-type>java.lang.Boolean</WindowFullscreen-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Full Screen: false
+Control App: Close
+Check Pebble Connected: false
+Other Pebble App: unknown
+No Prefix if Command: false
+Do Not Disturb: false
+Clear History: false
+Open Phone App: false
+Save Scren: false
+Don't Send Screen: false
+Go Back: false
+Go Back Multi: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TitleFont LightModeManual TextFont ID LightMode VibrationPattern TapCommand ManageHistoryScreen ListHeader MiddleAction MiddleLongAction MiddleMultiAction BackAction BackMultiAction BatteryChangedPrefix MotionX MotionY MotionZ OpenPhoneApp LaunchOtherApp OtherAppAction WatchAppOpenedCommand PebbleConnectedCommand PebbleDisconnectedCommand MediaButtonPreviousCommand MediaButtonPlayCommand MediaButtonNexCommand LaunchOtherAppManual plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>8328d347-f726-4eb2-a1ca-70d3374f3280</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autopebble.intent.IntentControlApp</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autopebble</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autopebble.activity.ActivityConfigControlApp</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">reminder</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%State</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">morning_log.txt</Str>
+			<Str sr="arg1" ve="3">%TIME %par1 %Flow(%State)</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>0</op>
+					<rhs>complete</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%State</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%State</lhs>
+					<op>9</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Remind</Str>
+			<Str sr="arg1" ve="3">%TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">remind_menu</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task72">
+		<cdate>1475232712628</cdate>
+		<edate>1646649655876</edate>
+		<id>72</id>
+		<nme>media_control</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%apcomm</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>next</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>previous</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>stop</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%apcomm</lhs>
+					<op>0</op>
+					<rhs>pause</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task77">
+		<cdate>1476387114159</cdate>
+		<edate>1625420602252</edate>
+		<id>77</id>
+		<nme>bzz</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">remind_menu</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
